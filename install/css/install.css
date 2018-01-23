@@ -1,0 +1,14 @@
+@CHARSET "UTF-8";
+
+.con_bg{width : 100%; padding : 20px 0px 50px 0px ;}
+.con{width : 980px; margin : 0 auto;/* border : 1px solid #ccc;*/}
+.con_title{height : 40px; padding : 0px 0px; text-align : center;}
+.con-agreement{line-height : 25px; color : #666; overflow:auto; height: 500px; margin: 0 auto; border : 1px solid #ccc; padding:20px 20px;}
+.con-agreement p{text-indent : 30px;}
+.con-fc{color : #337ab7;}
+.con-base{height : 40px; padding : 0px 0px; text-align : center;}
+
+.con-agreement01{line-height : 25px; color : #666; }
+.con-agreement01 p{text-indent : 30px;}
+.con-config{ width :600px; margin : 0 auto;}
+.con-email-01 p{text-indent : 30px;}

@@ -1,0 +1,378 @@
+[ 2015-09-14T18:02:50+08:00 ] ::1 /24hours_admin/24hours/Admin/Public/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000870s ]
+ERR: 无法加载控制器:24hours_admin
+
+[ 2015-09-14T18:02:50+08:00 ] ::1 /24hours_admin/24hours/Admin/Public/js/dist/jquery-migrate.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+ERR: 无法加载控制器:24hours_admin
+
+[ 2015-09-14T18:02:50+08:00 ] ::1 /24hours_admin/24hours/Admin/Public/baidubianjiqi/third-party/jquery-1.10.2.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+ERR: 无法加载控制器:24hours_admin
+
+[ 2015-09-14T18:03:14+08:00 ] ::1 /24hours_admin/index.php/Client/topic/case/underway/identifying/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WWW\24hours_admin\24hours\Admin\Controller\CommonController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `sz24hours_user` [ RunTime:0.0317s ]
+SQL: SELECT * FROM `sz24hours_user` WHERE ( userid='xiaozhu' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sz24hours_work` [ RunTime:0.0072s ]
+SQL: SELECT u.id u_id,u.uname u_uname,w.id w_id,w.title w_title,w.issue w_issue,w.sc_file w_sc_file,w.puddate w_puddate,w.wc_sataus,w.g_reply w_g_reply,w.repdate w_repdate,s.id s_id,s.uname s_uname FROM sz24hours_work as w LEFT JOIN sz24hours_user as u ON w.uid=u.id LEFT JOIN sz24hours_service as s ON u.sid=s.id  WHERE ( w.id=2 ) LIMIT 1   [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `sz24hours_addwork` [ RunTime:0.0071s ]
+SQL: SELECT u.uname,u.email,u.phone,u.limits,a.id,a.g_reply,a.repdate,a.pid,a.uid FROM sz24hours_addwork as a LEFT JOIN sz24hours_user as u ON a.uid=u.id  ORDER BY repdate asc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+NOTIC: [8] Undefined index: member02 E:\WWW\24hours_admin\24hours\Runtime\Cache\Admin\cff710799815f8dfc9982c080f5c9462.php 第 117 行.
+NOTIC: [8] Undefined variable: count E:\WWW\24hours_admin\24hours\Runtime\Cache\Admin\cff710799815f8dfc9982c080f5c9462.php 第 117 行.
+NOTIC: [8] Undefined variable: set E:\WWW\24hours_admin\24hours\Runtime\Cache\Admin\cff710799815f8dfc9982c080f5c9462.php 第 127 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012925s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000433s ]
+
+[ 2015-09-14T18:03:29+08:00 ] ::1 /24hours_admin/index.php/Client/topic/case/underway/identifying/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018635s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WWW\24hours_admin\24hours\Admin\Controller\CommonController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `sz24hours_user` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `sz24hours_user` WHERE ( userid='enheng' ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `sz24hours_work` [ RunTime:0.0163s ]
+SQL: SELECT u.id u_id,u.uname u_uname,w.id w_id,w.title w_title,w.issue w_issue,w.sc_file w_sc_file,w.puddate w_puddate,w.wc_sataus,w.g_reply w_g_reply,w.repdate w_repdate,s.id s_id,s.uname s_uname FROM sz24hours_work as w LEFT JOIN sz24hours_user as u ON w.uid=u.id LEFT JOIN sz24hours_service as s ON u.sid=s.id  WHERE ( w.id=2 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `sz24hours_addwork` [ RunTime:0.0167s ]
+SQL: SELECT u.uname,u.email,u.phone,u.limits,a.id,a.g_reply,a.repdate,a.pid,a.uid FROM sz24hours_addwork as a LEFT JOIN sz24hours_user as u ON a.uid=u.id  ORDER BY repdate asc  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+NOTIC: [8] Undefined index: active01 E:\WWW\24hours_admin\24hours\Runtime\Cache\Admin\cff710799815f8dfc9982c080f5c9462.php 第 121 行.
+NOTIC: [8] Undefined index: member02 E:\WWW\24hours_admin\24hours\Runtime\Cache\Admin\cff710799815f8dfc9982c080f5c9462.php 第 122 行.
+NOTIC: [8] Undefined variable: set E:\WWW\24hours_admin\24hours\Runtime\Cache\Admin\cff710799815f8dfc9982c080f5c9462.php 第 127 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024876s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024982s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000782s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000864s ]
+
+[ 2015-09-14T18:03:38+08:00 ] ::1 /24hours_admin/index.php/Client/topic/case/underway/identifying/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WWW\24hours_admin\24hours\Admin\Controller\CommonController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `sz24hours_user` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `sz24hours_user` WHERE ( userid='xiaozhu' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sz24hours_work` [ RunTime:0.0082s ]
+SQL: SELECT u.id u_id,u.uname u_uname,w.id w_id,w.title w_title,w.issue w_issue,w.sc_file w_sc_file,w.puddate w_puddate,w.wc_sataus,w.g_reply w_g_reply,w.repdate w_repdate,s.id s_id,s.uname s_uname FROM sz24hours_work as w LEFT JOIN sz24hours_user as u ON w.uid=u.id LEFT JOIN sz24hours_service as s ON u.sid=s.id  WHERE ( w.id=2 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sz24hours_addwork` [ RunTime:0.0067s ]
+SQL: SELECT u.uname,u.email,u.phone,u.limits,a.id,a.g_reply,a.repdate,a.pid,a.uid FROM sz24hours_addwork as a LEFT JOIN sz24hours_user as u ON a.uid=u.id  ORDER BY repdate asc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+NOTIC: [8] Undefined index: member02 E:\WWW\24hours_admin\24hours\Runtime\Cache\Admin\cff710799815f8dfc9982c080f5c9462.php 第 117 行.
+NOTIC: [8] Undefined variable: count E:\WWW\24hours_admin\24hours\Runtime\Cache\Admin\cff710799815f8dfc9982c080f5c9462.php 第 117 行.
+NOTIC: [8] Undefined variable: set E:\WWW\24hours_admin\24hours\Runtime\Cache\Admin\cff710799815f8dfc9982c080f5c9462.php 第 127 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013359s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013414s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000605s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000661s ]
+
+[ 2015-09-14T18:04:08+08:00 ] ::1 /24hours_admin/index.php/Client/topic/case/underway/identifying/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000928s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WWW\24hours_admin\24hours\Admin\Controller\CommonController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `sz24hours_user` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `sz24hours_user` WHERE ( userid='xiaozhu' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sz24hours_work` [ RunTime:0.0082s ]
+SQL: SELECT u.id u_id,u.uname u_uname,w.id w_id,w.title w_title,w.issue w_issue,w.sc_file w_sc_file,w.puddate w_puddate,w.wc_sataus,w.g_reply w_g_reply,w.repdate w_repdate,s.id s_id,s.uname s_uname FROM sz24hours_work as w LEFT JOIN sz24hours_user as u ON w.uid=u.id LEFT JOIN sz24hours_service as s ON u.sid=s.id  WHERE ( w.id=2 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sz24hours_addwork` [ RunTime:0.0085s ]
+SQL: SELECT u.uname,u.email,u.phone,u.limits,a.id,a.g_reply,a.repdate,a.pid,a.uid FROM sz24hours_addwork as a LEFT JOIN sz24hours_user as u ON a.uid=u.id  ORDER BY repdate asc  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000243s ]
+NOTIC: [8] Undefined index: member02 E:\WWW\24hours_admin\24hours\Runtime\Cache\Admin\cff710799815f8dfc9982c080f5c9462.php 第 117 行.
+NOTIC: [8] Undefined variable: count E:\WWW\24hours_admin\24hours\Runtime\Cache\Admin\cff710799815f8dfc9982c080f5c9462.php 第 117 行.
+NOTIC: [8] Undefined variable: set E:\WWW\24hours_admin\24hours\Runtime\Cache\Admin\cff710799815f8dfc9982c080f5c9462.php 第 127 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025388s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025489s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000749s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000840s ]
+
+[ 2015-09-14T18:04:31+08:00 ] ::1 /24hours_admin/index.php/Client/topic/case/underway/identifying/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000659s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009155s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009253s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WWW\24hours_admin\24hours\Admin\Controller\CommonController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `sz24hours_user` [ RunTime:0.0161s ]
+SQL: SELECT * FROM `sz24hours_user` WHERE ( userid='xiaozhu' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sz24hours_work` [ RunTime:0.0075s ]
+SQL: SELECT u.id u_id,u.uname u_uname,w.id w_id,w.title w_title,w.issue w_issue,w.sc_file w_sc_file,w.puddate w_puddate,w.wc_sataus,w.g_reply w_g_reply,w.repdate w_repdate,s.id s_id,s.uname s_uname FROM sz24hours_work as w LEFT JOIN sz24hours_user as u ON w.uid=u.id LEFT JOIN sz24hours_service as s ON u.sid=s.id  WHERE ( w.id=2 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sz24hours_addwork` [ RunTime:0.0067s ]
+SQL: SELECT u.uname,u.email,u.phone,u.limits,a.id,a.g_reply,a.repdate,a.pid,a.uid FROM sz24hours_addwork as a LEFT JOIN sz24hours_user as u ON a.uid=u.id  ORDER BY repdate asc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+NOTIC: [8] Undefined index: member02 E:\WWW\24hours_admin\24hours\Runtime\Cache\Admin\cff710799815f8dfc9982c080f5c9462.php 第 117 行.
+NOTIC: [8] Undefined variable: count E:\WWW\24hours_admin\24hours\Runtime\Cache\Admin\cff710799815f8dfc9982c080f5c9462.php 第 117 行.
+NOTIC: [8] Undefined variable: set E:\WWW\24hours_admin\24hours\Runtime\Cache\Admin\cff710799815f8dfc9982c080f5c9462.php 第 127 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014870s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014939s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000632s ]
+
+[ 2015-09-14T18:05:32+08:00 ] ::1 /24hours_admin/index.php/Client/topic/case/underway/identifying/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001172s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WWW\24hours_admin\24hours\Admin\Controller\CommonController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `sz24hours_user` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `sz24hours_user` WHERE ( userid='xiaozhu' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sz24hours_work` [ RunTime:0.0084s ]
+SQL: SELECT u.id u_id,u.uname u_uname,w.id w_id,w.title w_title,w.issue w_issue,w.sc_file w_sc_file,w.puddate w_puddate,w.wc_sataus,w.g_reply w_g_reply,w.repdate w_repdate,s.id s_id,s.uname s_uname FROM sz24hours_work as w LEFT JOIN sz24hours_user as u ON w.uid=u.id LEFT JOIN sz24hours_service as s ON u.sid=s.id  WHERE ( w.id=2 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sz24hours_addwork` [ RunTime:0.0088s ]
+SQL: SELECT u.uname,u.email,u.phone,u.limits,a.id,a.g_reply,a.repdate,a.pid,a.uid FROM sz24hours_addwork as a LEFT JOIN sz24hours_user as u ON a.uid=u.id  ORDER BY repdate asc  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+NOTIC: [8] Undefined index: member02 E:\WWW\24hours_admin\24hours\Runtime\Cache\Admin\cff710799815f8dfc9982c080f5c9462.php 第 117 行.
+NOTIC: [8] Undefined variable: count E:\WWW\24hours_admin\24hours\Runtime\Cache\Admin\cff710799815f8dfc9982c080f5c9462.php 第 117 行.
+NOTIC: [8] Undefined variable: set E:\WWW\24hours_admin\24hours\Runtime\Cache\Admin\cff710799815f8dfc9982c080f5c9462.php 第 127 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017645s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017728s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001137s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001283s ]
+
+[ 2015-09-14T18:05:59+08:00 ] ::1 /24hours_admin/index.php/Client/topic/case/underway/identifying/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000845s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001128s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WWW\24hours_admin\24hours\Admin\Controller\CommonController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `sz24hours_user` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `sz24hours_user` WHERE ( userid='xiaozhu' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sz24hours_work` [ RunTime:0.0071s ]
+SQL: SELECT u.id u_id,u.uname u_uname,w.id w_id,w.title w_title,w.issue w_issue,w.sc_file w_sc_file,w.puddate w_puddate,w.wc_sataus,w.g_reply w_g_reply,w.repdate w_repdate,s.id s_id,s.uname s_uname FROM sz24hours_work as w LEFT JOIN sz24hours_user as u ON w.uid=u.id LEFT JOIN sz24hours_service as s ON u.sid=s.id  WHERE ( w.id=2 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sz24hours_addwork` [ RunTime:0.0086s ]
+SQL: SELECT u.uname,u.email,u.phone,u.limits,a.id,a.g_reply,a.repdate,a.pid,a.uid FROM sz24hours_addwork as a LEFT JOIN sz24hours_user as u ON a.uid=u.id  ORDER BY repdate asc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+NOTIC: [8] Undefined index: member02 E:\WWW\24hours_admin\24hours\Runtime\Cache\Admin\cff710799815f8dfc9982c080f5c9462.php 第 117 行.
+NOTIC: [8] Undefined variable: count E:\WWW\24hours_admin\24hours\Runtime\Cache\Admin\cff710799815f8dfc9982c080f5c9462.php 第 117 行.
+NOTIC: [8] Undefined variable: set E:\WWW\24hours_admin\24hours\Runtime\Cache\Admin\cff710799815f8dfc9982c080f5c9462.php 第 127 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015643s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015725s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000828s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000910s ]
+
+[ 2015-09-14T18:06:10+08:00 ] ::1 /24hours_admin/24hours/Admin/Public/js/dist/jquery-migrate.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+ERR: 无法加载控制器:24hours_admin
+
+[ 2015-09-14T18:06:10+08:00 ] ::1 /24hours_admin/24hours/Admin/Public/baidubianjiqi/third-party/jquery-1.10.2.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000821s ]
+ERR: 无法加载控制器:24hours_admin
+
+[ 2015-09-14T18:06:10+08:00 ] ::1 /24hours_admin/24hours/Admin/Public/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001171s ]
+ERR: 无法加载控制器:24hours_admin
+
+[ 2015-09-14T18:06:17+08:00 ] ::1 /24hours_admin/index.php/Client/topic/case/underway/identifying/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001241s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WWW\24hours_admin\24hours\Admin\Controller\CommonController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `sz24hours_user` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `sz24hours_user` WHERE ( userid='xiaozhu' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sz24hours_work` [ RunTime:0.0066s ]
+SQL: SELECT u.id u_id,u.uname u_uname,w.id w_id,w.title w_title,w.issue w_issue,w.sc_file w_sc_file,w.puddate w_puddate,w.wc_sataus,w.g_reply w_g_reply,w.repdate w_repdate,s.id s_id,s.uname s_uname FROM sz24hours_work as w LEFT JOIN sz24hours_user as u ON w.uid=u.id LEFT JOIN sz24hours_service as s ON u.sid=s.id  WHERE ( w.id=2 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sz24hours_addwork` [ RunTime:0.0066s ]
+SQL: SELECT u.uname,u.email,u.phone,u.limits,a.id,a.g_reply,a.repdate,a.pid,a.uid FROM sz24hours_addwork as a LEFT JOIN sz24hours_user as u ON a.uid=u.id  ORDER BY repdate asc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+NOTIC: [8] Undefined index: member02 E:\WWW\24hours_admin\24hours\Runtime\Cache\Admin\cff710799815f8dfc9982c080f5c9462.php 第 117 行.
+NOTIC: [8] Undefined variable: count E:\WWW\24hours_admin\24hours\Runtime\Cache\Admin\cff710799815f8dfc9982c080f5c9462.php 第 117 行.
+NOTIC: [8] Undefined variable: set E:\WWW\24hours_admin\24hours\Runtime\Cache\Admin\cff710799815f8dfc9982c080f5c9462.php 第 127 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013310s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013368s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000443s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000496s ]
+
+[ 2015-09-14T18:06:17+08:00 ] ::1 /24hours_admin/24hours/Admin/Public/js/dist/jquery-migrate.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+ERR: 无法加载控制器:24hours_admin
+
+[ 2015-09-14T18:06:17+08:00 ] ::1 /24hours_admin/24hours/Admin/Public/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000645s ]
+ERR: 无法加载控制器:24hours_admin
+
+[ 2015-09-14T18:06:18+08:00 ] ::1 /24hours_admin/24hours/Admin/Public/baidubianjiqi/third-party/jquery-1.10.2.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+ERR: 无法加载控制器:24hours_admin
+
+[ 2015-09-14T18:06:50+08:00 ] ::1 /24hours_admin/index.php/Client/topic/case/underway/identifying/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000731s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WWW\24hours_admin\24hours\Admin\Controller\CommonController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `sz24hours_user` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `sz24hours_user` WHERE ( userid='xiaozhu' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sz24hours_work` [ RunTime:0.0065s ]
+SQL: SELECT u.id u_id,u.uname u_uname,w.id w_id,w.title w_title,w.issue w_issue,w.sc_file w_sc_file,w.puddate w_puddate,w.wc_sataus,w.g_reply w_g_reply,w.repdate w_repdate,s.id s_id,s.uname s_uname FROM sz24hours_work as w LEFT JOIN sz24hours_user as u ON w.uid=u.id LEFT JOIN sz24hours_service as s ON u.sid=s.id  WHERE ( w.id=2 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sz24hours_addwork` [ RunTime:0.0067s ]
+SQL: SELECT u.uname,u.email,u.phone,u.limits,a.id,a.g_reply,a.repdate,a.pid,a.uid FROM sz24hours_addwork as a LEFT JOIN sz24hours_user as u ON a.uid=u.id  ORDER BY repdate asc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+NOTIC: [8] Undefined index: member02 E:\WWW\24hours_admin\24hours\Runtime\Cache\Admin\cff710799815f8dfc9982c080f5c9462.php 第 117 行.
+NOTIC: [8] Undefined variable: count E:\WWW\24hours_admin\24hours\Runtime\Cache\Admin\cff710799815f8dfc9982c080f5c9462.php 第 117 行.
+NOTIC: [8] Undefined variable: set E:\WWW\24hours_admin\24hours\Runtime\Cache\Admin\cff710799815f8dfc9982c080f5c9462.php 第 127 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012542s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012613s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000197s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000443s ]
+
+[ 2015-09-14T18:06:50+08:00 ] ::1 /24hours_admin/24hours/Admin/Public/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+ERR: 无法加载控制器:24hours_admin
+
+[ 2015-09-14T18:06:50+08:00 ] ::1 /24hours_admin/24hours/Admin/Public/js/dist/jquery-migrate.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000980s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001025s ]
+ERR: 无法加载控制器:24hours_admin
+
+[ 2015-09-14T18:06:50+08:00 ] ::1 /24hours_admin/24hours/Admin/Public/baidubianjiqi/third-party/jquery-1.10.2.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000431s ]
+ERR: 无法加载控制器:24hours_admin
+

@@ -1,0 +1,18 @@
+[ 2015-08-31T18:21:07+08:00 ] ::1 /24hours_admin/index.php/24hours/Home/View/dashboard.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+ERR: 无法加载模块:24hours
+
+[ 2015-08-31T18:29:33+08:00 ] ::1 /24hours_admin/index.php/24hours/Home/View/Index/dashboard.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+ERR: 无法加载模块:24hours
+
+[ 2015-08-31T18:31:16+08:00 ] ::1 /24hours_admin/index.php/24hours/Home/View/Index/dashboard.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+ERR: 无法加载模块:24hours
+

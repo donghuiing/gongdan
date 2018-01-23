@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>{$main.w_title}</title>
+<!-- header binge -->
+<link href="{$Think.config.URL}baidubianjiqi/themes/default/css/umeditor.css" type="text/css" rel="stylesheet">
+
+<include file="Public/header" />
+
+<script type="text/javascript" src="{$Think.config.URL}js/new/unify.js"></script>
+
+<script type="text/javascript" src="{$Think.config.URL}baidubianjiqi/third-party/jquery.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="{$Think.config.URL}baidubianjiqi/umeditor.config.js"></script>
+<script type="text/javascript" charset="utf-8" src="{$Think.config.URL}baidubianjiqi/umeditor.min.js"></script>
+<script type="text/javascript" src="{$Think.config.URL}baidubianjiqi/lang/zh-cn/zh-cn.js"></script>
+
+
+<style type="text/css">
+	a:hover{
+		text-decoration:none;
+	}
+	.comments li:last-child .comment p{margin-top:15px;}
+</style>
+</head>
+
+<body>
+
+<div class="mainwrapper">
+    
+    <!-- header binge -->
+	<include file="Public/head" />
+
+	<!-- header end -->
+    
+    <div class="rightpanel">
+        
+         <!-- head binge -->
+        
+			<include file="Public/nav" name='处理工单'/>
+		
+		<!-- head end -->
+		
+        <div class="maincontent">
+            <div class="maincontentinner">
+                <div class="messagepanel">
+                    <div class="messagemenu">
+                        <ul>
+                            <li class="back"><a><span class="iconfa-chevron-left"></span > Back</a></li>
+                            <li <if condition="$data.case eq 'dai'">{$data.class}</if>><a href="{:U('Client/messages?case=dai')}" ><span></span> 待处理的工单</a></li>
+                            <li <if condition="$data.case eq 'zhong'">{$data.class}</if>><a href="{:U('Client/messages?case=zhong')}"><span class="iconfa-inbox"></span> 处理中的工单</a></li>
+                            <li <if condition="$data.case eq 'yi'">{$data.class}</if>><a href="{:U('Client/messages?case=yi')}"><span class="iconfa-edit"></span> 已处理的工单</a></li>
+                            <if condition="$data.limits eq '3'">
+                            	<li <if condition="$data.case eq 'cao'">{$data.class}</if>><a href="{:U('Client/messages?case=cao')}"><span class="iconfa-edit"></span> 草稿箱</a></li>
+                            </if>
+                        </ul>
+                    </div>
+                    <div class="messagecontent">
+                        <div class="messageleft" style="height:1000px;width:15%;">
+                            <div class="messagesearch">
+                            	<input type="hidden" id="url" value="{$data.url}">
+                                <input type="text" class="input-block-level" placeholder="填写标题。。。" /*onkeydown="seek('messages');" */value="" id="sou"/>
+                            </div>
+                            <ul class="msglist">
+                            
+                            	<volist name="list" id="vo" key="k">
+	                               <a href="{:U('Client/messages?case='.$data['case'].'&messages='.$vo['id'].$data['sou'])}">
+	                               	 	<li class="<if condition="$k%2 eq 0">{$data.unread}</if> <eq name="vo.id" value="$data.aid">{$data.selected}</eq>"  >
+		                                    <div class="summary" style="margin-left:10px;">
+		                                        <span class="date pull-right"><small>{$vo.puddate|date="Y-m-d",###}</small></span>
+		                                        <h4>{$vo.title}</h4>
+		                                        <p><strong>{$vo.issue|msubstr=0,18|strip_tags}</strong></p>
+		                                    </div>
+	                                	</li>
+	                               </a>
+                                </volist>
+                                
+                            </ul>
+                        </div><!--messageleft-->
+                        <div class="messageright" style="height:1000px; margin-left:15%;">
+                            <div class="messageview" <if condition="$data.case eq 'zhong'">	style="height:700px;"<else /> 	style="height:1000px;"</if>>	
+                            	<notempty name="list">
+	                            	<div class="btn-group pull-right">
+	                            		<if condition="$data.limits eq 3 and $data.case eq 'dai'">
+	                            			
+	                            				<a href="{:U('Client/forms?type=xiu&forms='.$main['w_id'])}" class="btn dropdown-toggle"  style="color:#555;">&nbsp;&nbsp;修改&nbsp;&nbsp;</a>
+	                            				&nbsp;&nbsp;&nbsp;
+	                            				<a href="javascript:void();" onclick="del('messages-{$main.w_id}');" class="btn btn-danger alertdanger" style="color:#fff;">&nbsp;&nbsp;取消&nbsp;&nbsp;</a>
+	                            		</if>
+	                            		
+	                            		<if condition="$data.limits eq 2 and $data.case eq 'dai'">
+	                            			<a href="{:U('Client/messages?type=chu&wc_sataus='.$main['w_id'])}" class="btn dropdown-toggle"  style="color:#555;">&nbsp;&nbsp;处理&nbsp;&nbsp;</a>
+	                            		</if>
+	                            		
+	                            		<if condition="$data.limits eq 3 and $data.case eq 'zhong'">
+	                            			<a href="{:U('Client/messages?type=wang&wc_sataus='.$main['w_id'])}" class="btn btn-success alertsuccess" style="color:#fff;">&nbsp;&nbsp;结束&nbsp;&nbsp;</a>
+	                            		</if>
+	                            		<if condition="$data.limits eq 3 and $data.case eq 'cao'">
+	                            			<a href="{:U('Client/forms?type=xiu&forms='.$main['w_id'])}" class="btn dropdown-toggle" style="color:#555;">&nbsp;&nbsp;编辑&nbsp;&nbsp;</a>
+	                            		</if>
+	                            	</div>
+	                                <h1 class="subject"><b>【标题】{$main.w_title}</b></h1>
+	                                
+	                                <div class="msgauthor">
+	                                    <div class="authorinfo" style="margin-left:0px;">
+	                                        <span class="date pull-right">{$main.w_puddate|date="Y-m-d",###}</span>
+	                                        <h5><strong>{$main.u_uname}</strong> <span>{$main.u_email}</span></h5>
+	                                        <span class="to">{$main.u_url}</span>
+	                                    </div><!--authorinfo-->
+	                                </div><!--msgauthor-->
+	                                <div class="msgbody"  style="background:#fcfcfc;">
+	                                	<div style="margin-left:40px;">
+	                                    	{$main.w_issue}
+	                                	</div>
+	                                	
+	                                	<notempty name="file_arr[0]">
+											<div style="margin-left:220px;overflow:hidden;zoom:1;">
+													
+												<foreach name="file_arr" item="vo" key="k">
+													<div id="picture{$k}">
+														<div style="float:left;margin:5px; padding:5px;border:1px solid #ccc;" >
+															<div style="width:150px;height:125px;">
+																<img src="__ROOT__/Uploads/{$vo}" style="width:150px;height:100px;" />
+																<input type="hidden" name="photo01[]" value="{$vo}">
+																<div style="text-align:center;"><a href="javascript:void()" onclick="del_tp('picture{$k}');">删除</a></div>
+															</div>
+														</div>
+													</div>
+												</foreach>
+											</div>
+										</notempty>	
+	                                	
+	                                	
+	                                	<if condition="$data.limits eq 3 and $data.case eq 'zhong'">
+	                                		 <p style="color:red;">【备注】：若本工单已无问题，请点击右上角的“结束”按钮，本工单将处理完毕，将会在“已处理的工单”处显示。</p>
+	                                	</if>
+		                                
+	                                </div><!--msgbody-->
+	                                
+	                                <volist name='record' id="vo">
+	                                	<div style="border-top:1px solid #ddd;">
+	                                		<div class="msgauthor"  style="padding:0 0;border:1px solid #ddd;margin:10px 0;width:50%;<if condition="$vo['limits'] eq 2">margin-left:49.85%;</if>">
+	                                		
+	                               				<if condition="$vo['limits'] eq 2">
+	                               					<h3 class="widgettitle" style="background:#FF8888;">回复<span class="date pull-right">{$vo.repdate|date="Y-m-d",###}</span></h3>
+	                                			</if>
+	                                			
+	                                			<if condition="$vo['limits'] eq 3">
+	                                				<h3 class="widgettitle" style="background:#ddd;">追加<span class="date pull-right">{$vo.repdate|date="Y-m-d",###}</span></h3>
+	                                			</if>
+	                                			
+			                                    <div >
+			                                    	<div class="authorinfo"  style="margin:15px 0px 0px 15px;">
+														{$vo.uname}
+				                                    </div><!--authorinfo-->
+				                                   	
+			                                		<div class="msgbody"  style="margin-left:25px;">
+				                                   		{$vo.g_reply}
+				                                   	</div>
+			                                    </div>
+			                                </div><!--msgauthor-->
+	                                	</div>
+		                                
+	                                </volist>
+                            		<div name="one"></div>
+	                                <br/>
+	                                <br/>
+                            	</notempty>
+                            </div><!--messageview-->
+                            <if condition="$data.case eq 'zhong' or $data.limits eq '2' or $data.limits eq '3'">	
+	                            <div class="msgreply">
+                					<form id="form01" action="{:U('Client/messages')}" method="post" enctype="multipart/form-data">
+                						<input type="hidden" name="insert" value="insert" />
+                						<input type="hidden" name="pid" value="{$main.w_id}">
+	                                    <p>
+					                    	<script type="text/plain" id="myEditor" style="width:100%;height:200px;"></script>
+					                    </p>
+					                    <p style="margin-top:10px;" align="right">
+					                    	<input type="submit"  class="btn btn-primary" value="  发送  ">
+		                                </p>
+		                            </form>
+	                            </div><!--messagereply-->
+                            </if>
+                            
+                        </div><!--messageright-->
+                    </div><!--messagecontent-->
+                </div><!--messagepanel-->
+                
+               <!-- footer binge -->
+				<include file="Public/footer" />
+				
+				<!-- footer end -->
+                
+                
+            </div><!--maincontentinner-->
+        </div><!--maincontent-->
+        
+    </div><!--rightpanel-->
+    
+</div><!--mainwrapper-->
+<script type="text/javascript">
+
+    //实例化编辑器
+    var um = UM.getEditor('myEditor');
+    um.addListener('blur',function(){
+        $('#focush2').html('编辑器失去焦点了')
+    });
+    um.addListener('focus',function(){
+        $('#focush2').html('')
+    });
+    //按钮的操作
+    function insertHtml() {
+        var value = prompt('插入html代码', '');
+        um.execCommand('insertHtml', value)
+    }
+    function isFocus(){
+        alert(um.isFocus())
+    }
+    function doBlur(){
+        um.blur()
+    }
+    function createEditor() {
+        enableBtn();
+        um = UM.getEditor('myEditor');
+    }
+    function getAllHtml() {
+        alert(UM.getEditor('myEditor').getAllHtml())
+    }
+    function getContent() {
+        var arr = [];
+        arr.push("使用editor.getContent()方法可以获得编辑器的内容");
+        arr.push("内容为：");
+        arr.push(UM.getEditor('myEditor').getContent());
+        alert(arr.join("\n"));
+    }
+    function getPlainTxt() {
+        var arr = [];
+        arr.push("使用editor.getPlainTxt()方法可以获得编辑器的带格式的纯文本内容");
+        arr.push("内容为：");
+        arr.push(UM.getEditor('myEditor').getPlainTxt());
+        alert(arr.join('\n'))
+    }
+    function setContent(isAppendTo) {
+        var arr = [];
+        arr.push("使用editor.setContent('欢迎使用umeditor')方法可以设置编辑器的内容");
+        UM.getEditor('myEditor').setContent('欢迎使用umeditor', isAppendTo);
+        alert(arr.join("\n"));
+    }
+    function setDisabled() {
+        UM.getEditor('myEditor').setDisabled('fullscreen');
+        disableBtn("enable");
+    }
+
+    function setEnabled() {
+        UM.getEditor('myEditor').setEnabled();
+        enableBtn();
+    }
+
+    function getText() {
+        //当你点击按钮时编辑区域已经失去了焦点，如果直接用getText将不会得到内容，所以要在选回来，然后取得内容
+        var range = UM.getEditor('myEditor').selection.getRange();
+        range.select();
+        var txt = UM.getEditor('myEditor').selection.getText();
+        alert(txt)
+    }
+
+    function getContentTxt() {
+        var arr = [];
+        arr.push("使用editor.getContentTxt()方法可以获得编辑器的纯文本内容");
+        arr.push("编辑器的纯文本内容为：");
+        arr.push(UM.getEditor('myEditor').getContentTxt());
+        alert(arr.join("\n"));
+    }
+    function hasContent() {
+        var arr = [];
+        arr.push("使用editor.hasContents()方法判断编辑器里是否有内容");
+        arr.push("判断结果为：");
+        arr.push(UM.getEditor('myEditor').hasContents());
+        alert(arr.join("\n"));
+    }
+    function setFocus() {
+        UM.getEditor('myEditor').focus();
+    }
+    function deleteEditor() {
+        disableBtn();
+        UM.getEditor('myEditor').destroy();
+    }
+    function disableBtn(str) {
+        var div = document.getElementById('btns');
+        var btns = domUtils.getElementsByTagName(div, "button");
+        for (var i = 0, btn; btn = btns[i++];) {
+            if (btn.id == str) {
+                domUtils.removeAttributes(btn, ["disabled"]);
+            } else {
+                btn.setAttribute("disabled", "true");
+            }
+        }
+    }
+    function enableBtn() {
+        var div = document.getElementById('btns');
+        var btns = domUtils.getElementsByTagName(div, "button");
+        for (var i = 0, btn; btn = btns[i++];) {
+            domUtils.removeAttributes(btn, ["disabled"]);
+        }
+    }
+    
+
+    function keyevent(){
+        if(event.keyCode==13){
+        	if($("#sou").val() != ""){
+        		location.href=$("#url").val()+"/sou/"+$("#sou").val();
+        	}
+        }
+    }
+    document.onkeydown = keyevent;
+
+</script>
+</body>
+</html>

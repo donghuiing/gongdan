@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>售后人员管理</title>
+
+<!-- header binge -->
+<include file="Public/header" />
+
+<!-- header end -->
+
+<script type="text/javascript" src="{$Think.config.URL}js/new/unify.js"></script>
+
+<script type="text/javascript">
+jQuery(document).ready(function(){
+
+	
+	jQuery('.taglist .close').click(function(){
+		jQuery(this).parent().remove();
+		return false;
+	});
+	
+});
+</script>
+
+</head>
+
+
+<!--[if lte IE 8]><script language="javascript" type="text/javascript" src="js/excanvas.min.js"></script><![endif]-->
+</head>
+<body>
+
+<!-- header binge -->
+<include file="Public/head" />
+
+<!-- header end -->
+    
+    <div class="rightpanel">
+        <!-- head binge -->
+        
+			<include file="Public/nav" name='售后人员管理'/>
+		
+		<!-- head end -->
+        <div class="pageheader">
+            <div class="pageicon"><span class="iconfa-pencil"></span></div>
+            <div class="pagetitle">
+				<h5 style="height:10px;"></h5>
+                <h1>售后人员管理</h1>
+            </div>
+        </div><!--pageheader-->
+        
+        <div class="maincontent">
+            <div class="maincontentinner">
+                <div class="row-fluid">
+                   <div>
+                        <div class="widgetbox personal-information">
+                            <h4 class="widgettitle">售后人员管理</h4>
+                            <div class="widgetcontent">
+                            	<table class="table table-bordered">
+                            		<tr>
+                            			<th width="250px;">账号</th>
+                            			<th width="300px;">姓名</th>
+                            			<th width="300px;">手机</th>
+                            			<th width="400px;">email</th>
+                            			<th width="200px;">操作</th>
+                            		</tr>
+                            		<volist name="list" id="vo">
+                            			<tr id="s_manage{$vo.id}">
+                            				<td>{$vo.userid}</td>
+                            				<td>{$vo.uname}</td>
+                            				<td>{$vo.phone}</td>
+                            				<td>{$vo.email}</td>
+                            				<td>
+                            					&nbsp;&nbsp;&nbsp;<a href="javascript:void();" onclick="block('s_manage-{$vo.id}');"  class="icon-pencil"></a>
+                            				</td>
+                            			</tr>
+                            		</volist>
+                            	</table> 
+		                    {$page}
+                            </div>
+                                      
+                        </div>
+                        <div id="update" style="display:none;">
+                           	<form class="editprofileform" method="post">
+                               <input type="hidden" name="f_submit" value="f_submit">
+                               <input type="hidden" name="id" id="id" value="">
+                               
+                                <div class="widgetbox personal-information">
+                                    <h4 class="widgettitle">修改售后人员</h4>
+                                    <div class="widgetcontent">
+                                    	
+                                     <div id="update01">
+	                                    	<p>
+	                                            <label>账号：</label>
+	                                            <input type="text" name="userid" id="userid" class="input-xlarge" value="" />
+	                                        </p>
+	                                    	<p>
+	                                            <label>姓名：</label>
+	                                            <input type="text" name="uname" id="uname" class="input-xlarge" value="" />
+	                                        </p>
+	                                       	<p>
+	                                            <label>密码：</label>
+		                                        <a href="javascript:void();" onclick="xiu('s_manage');">修改密码？</a>
+	                                         </p>
+	                                       
+	                                        <p>
+	                                            <label>手机：</label>
+	                                            <input type="text" name="phone" id="phone" class="input-xlarge" value="" />
+	                                        </p>
+	                                        <p>
+	                                            <label>email：</label>
+	                                            <input type="text" name="email" id="email" class="input-xlarge" value="" />
+	                                        </p>
+		                                
+	                                    </div>
+	                                    
+		                                 <div id="update02" style="display:none;">
+		                                 	
+		                                 	<input type="hidden" name="pwd_status" id="pwd_status" value="">
+                                        	<p>
+	                                            <label>旧密码：</label>
+	                                            <input type="password" name="pwd" id="pwd" class="input-xlarge" value="" />
+	                                        </p>
+	                                        <p>
+	                                            <label>新密码：</label>
+	                                            <input type="password" name="pwd01" id="pwd01" class="input-xlarge" value="" />
+	                                        </p>
+	                                        
+	                                        <p>
+	                                            <label>确认密码：</label>
+	                                            <input type="password" name="pwd02" id="pwd02" class="input-xlarge" value="" />
+	                                        </p>
+	                                        
+                                        </div>
+                                        
+                                        <p>
+		                                	<a href="javascript:void();" class="btn btn-primary" onclick="update_t('s_manage');"><small>提交信息</small></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		                                	<a href="javascript:void();" class="btn btn-primary" onclick="none('update');"><small>取消</small></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		                                	<span id="caozuo"></span>
+		                                </p>
+                                    </div>
+                                </div>
+                            </form>
+                                       
+                        </div>
+                    </div><!--row-fluid-->
+                  
+                  
+        		 <!-- footer binge -->
+				<include file="Public/footer" />
+				
+				<!-- footer end -->
+                
+                
+                
+            </div><!--maincontentinner-->
+        </div><!--maincontent-->
+        
+    </div><!--rightpanel-->
+    
+</div><!--mainwrapper-->
+
+</body>
+</html>

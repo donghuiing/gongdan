@@ -1,0 +1,1 @@
+D:phpphp.exe -q D:websitetiming.php

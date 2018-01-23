@@ -1,0 +1,105 @@
+
+
+<div class="mainwrapper">
+    <div class="header">
+        <div class="logo">
+            <a href="{:U('Console/dashboard')}"><img src="{$Think.config.URL}/images/logo.png" alt="" /></a>
+        </div>
+        <div class="headerinner">
+            <ul class="headmenu">
+                <li class="odd">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <span class="count"></span>
+                        <span class="head-icon head-message"></span>
+                        <span class="headmenu-label">工单管理</span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li class="nav-header">工单管理</li>
+                        <if condition="$data.limits eq '3'">
+                        	<li><a href="{:U('Client/forms')}"><span class="icon-tasks"></span> 新工单</a></li>
+                        </if>
+                        <li><a href="{:U('Client/messages?case=dai')}"><span class="icon-tasks"></span> 待处理的工单 </a></li>
+                        <li><a href="{:U('Client/messages?case=zhong')}"><span class="icon-tasks"></span> 处理中的工单 </a></li>
+                        <li><a href="{:U('Client/messages?case=yi')}"><span class="icon-tasks"></span> 已处理的工单</a></li>
+                        <if condition="$data.limits eq '3'">
+                        	<li><a href="{:U('Client/messages?case=cao')}"><span class="icon-tasks"></span> 草稿箱 </a></li>
+                        </if>
+                    </ul>
+                </li>
+                <li class="right">
+                    <div class="userloggedinfo">
+                    	<div style="height:20px;"></div>
+                        <div class="userinfo">
+                            <h5>{$Think.session.userid}<small>{$Think.session.email}</small></h5>
+                            <ul>
+                                <li><a href="{:U('Index/editprofile')}">修改资料</a></li>
+<!--                                 <li><a href="">帐户设置</a></li> -->
+                                <li><a href="{:U('Index/exit_t')}">退出</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul><!--headmenu-->
+        </div>
+    </div>
+    <div class="leftpanel">
+        <div class="leftmenu">        
+            <ul class="nav nav-tabs nav-stacked">
+            <if condition="$limits eq '1'">
+            	<!-- 管理员 -->
+            	<li class="nav-header">总后台管理</li>
+<!--             	<li class="active"><a href="{:U('Console/dashboard')}"><span class="iconfa-question-sign"></span> 工单</a></li> -->
+				
+				
+            	<li {$set.active}><a href="{:U('Console/dashboard')}"><span class="iconfa-laptop"></span> 后台面板</a></li>
+
+                <li class="dropdown {$data01.kh_one}"><a href=""><span class="iconfa-user"></span> 客户管理</a>
+                	<ul {$data01.kh_block}>
+                    	<li {$data01.kh_two01}><a href="{:U('Admin/client')}">添加客户</a></li>
+                        <li {$data01.kh_two02}><a href="{:U('Admin/c_manage')}">管理客户</a></li>
+                        <li {$data01.kh_two03}><a href="{:U('Admin/c_status')}">客户类型管理</a></li>
+                    </ul>
+                </li>
+                
+                <li class="dropdown {$data.sh_one}"><a href=""><span class="iconfa-comments"></span> 售后人员管理</a>
+                	<ul {$data.sh_block}>
+                    	<li {$data.sh_two01}><a href="{:U('Admin/service')}">添加售后人员</a></li>
+                        <li {$data.sh_two02}><a href="{:U('Admin/s_manage')}">管理售后人员</a></li>
+                    </ul>
+                </li>
+                
+                <li {$data02.sh_two01}><a href="{:U('Admin/office')}"><span class="iconfa-comments"></span> 工作时间</a></li>
+                <li {$data03.sh_two01}><a href="{:U('Admin/config')}"><span class="iconfa-comments"></span> 基本配置</a></li>
+            
+            </if>
+            
+            <if condition="$limits eq '2' or $limits eq '1' ">
+            	<!-- 售后人员 -->
+            	<if condition="$limits eq '2'">
+            		<li class="nav-header">售后后台管理</li>
+            		<li {$set.active}><a href="{:U('Console/dashboard')}"><span class="iconfa-laptop"></span> 后台面板</a></li>
+            	</if>
+            	<if condition="$limits eq '1'">
+            		<li class="nav-header">工单管理</li>
+            	</if>
+            	
+                <li <if condition="$data.case eq 'dai'">{$data.active02}</if>><a href="{:U('Client/messages?case=dai')}"><span class="iconfa-pencil"></span> 待处理的工单</a></li>
+                <li <if condition="$data.case eq 'zhong'">{$data.active02}</if>><a href="{:U('Client/messages?case=zhong')}"><span class="iconfa-refresh"></span> 处理中的工单</a></li>
+                <li <if condition="$data.case eq 'yi'">{$data.active02}</if>><a href="{:U('Client/messages?case=yi')}"><span class="iconfa-briefcase"></span> 已处理的工单</a></li>
+                
+                
+            
+            </if>
+            <if condition="$limits eq '3'">
+            	<li class="nav-header">工单管理</li>
+            	<li {$set.active}><a href="{:U('Console/dashboard')}"><span class="iconfa-laptop"></span> 后台面板</a></li>
+                <li {$data.active01}><a href="{:U('Client/forms')}"><span class="iconfa-pencil"></span> 新工单</a></li>
+                <li <if condition="$data.case eq 'dai'">{$data.active02}</if> ><a href="{:U('Client/messages?case=dai')}"><span class="iconfa-pencil"></span> 待处理的工单</a></li>
+                <li <if condition="$data.case eq 'zhong'">{$data.active02}</if> ><a href="{:U('Client/messages?case=zhong')}"><span class="iconfa-refresh"></span> 处理中的工单</a></li>
+                <li <if condition="$data.case eq 'yi'">{$data.active02}</if> ><a href="{:U('Client/messages?case=yi')}"><span class="iconfa-briefcase"></span> 已处理的工单</a></li>
+                <li <if condition="$data.case eq 'cao'">{$data.active02}</if> ><a href="{:U('Client/messages?case=cao')}"><span class="iconfa-th-list"></span> 草稿箱</a></li>
+                
+            </if>
+            </ul>
+        </div><!--leftmenu-->
+    </div><!-- leftpanel -->

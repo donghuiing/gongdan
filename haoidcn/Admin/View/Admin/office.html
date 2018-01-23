@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>工作时间</title>
+
+<!-- header binge -->
+<include file="Public/header" />
+
+<!-- header end -->
+
+<script type="text/javascript" src="{$Think.config.URL}js/new/unify.js"></script>
+
+</head>
+
+
+<!--[if lte IE 8]><script language="javascript" type="text/javascript" src="js/excanvas.min.js"></script><![endif]-->
+</head>
+<body >
+
+<!-- header binge -->
+<include file="Public/head" />
+
+<!-- header end -->
+    
+    <div class="rightpanel">
+        
+        <!-- head binge -->
+        
+			<include file="Public/nav" name='上班/放假时间'/>
+		
+		<!-- head end -->
+        
+        <div class="pageheader">
+           
+            <div class="pageicon"><span class="iconfa-plus"></span></div>
+            <div class="pagetitle">
+				<h5 style="height:10px;"></h5>
+                <h1>上班/放假时间</h1>
+            </div>
+        </div><!--pageheader-->
+        
+        <div class="maincontent">
+            <div class="maincontentinner">
+                <div class="row-fluid">
+<!--                 	<div class="widgetbox personal-information"> -->
+<!--                             <h4 class="widgettitle">上班/放假时间</h4> -->
+<!--                             <div class="widgetcontent"> -->
+<!--                             	<table class="table table-bordered"> -->
+<!--                             		<tr> -->
+<!--                             			<th width="250px;">账号</th> -->
+<!--                             			<th width="300px;">姓名</th> -->
+<!--                             			<th width="300px;">手机</th> -->
+<!--                             			<th width="400px;">email</th> -->
+<!--                             			<th width="200px;">操作</th> -->
+<!--                             		</tr> -->
+<!--                             		<volist name="list" id="vo"> -->
+<!--                             			<tr id="s_manage{$vo.id}"> -->
+<!--                             				<td>{$vo.userid}</td> -->
+<!--                             				<td>{$vo.uname}</td> -->
+<!--                             				<td>{$vo.phone}</td> -->
+<!--                             				<td>{$vo.email}</td> -->
+<!--                             				<td> -->
+<!--                             					&nbsp;&nbsp;&nbsp;<a href="javascript:void();" onclick="block('s_manage-{$vo.id}');"  class="icon-pencil"></a> -->
+<!--                             				</td> -->
+<!--                             			</tr> -->
+<!--                             		</volist> -->
+<!--                             	</table>  -->
+<!-- 		                    {$page} -->
+<!--                             </div> -->
+                                      
+<!--                         </div> -->
+                
+                        <div>
+                        	<input type="hidden" name="result" id="result" value="{$ok}">
+                            <form action="office.html" id='form01' class="editprofileform" method="post">
+                               <input type="hidden" name="f_submit" value="f_submit">
+                                <div class="widgetbox personal-information">
+                                    <h4 class="widgettitle">上班/放假时间</h4>
+                                    <div class="widgetcontent">
+                                    
+                                    	<p>
+                                            <label>上班时间：</label>
+                                            <input type="text" name="begin_time" id="begin_time" class="input-xlarge" value="{$list.begin_time}" style="width:200px;" placeholder="填写格式：8:30"/> —— 
+                                            <input type="text" name="end_time" id="end_time" class="input-xlarge" value="{$list.end_time}" style="width:200px;" placeholder="填写格式：18:00"/>
+                                        </p>
+                                        <p>
+                                            <label>节假日时间：</label>
+                                            <input type="text" name="begin_beputtime" id="begin_beputtime" class="input-xlarge" value="{$list.begin_beputtime|date='Y-m-d',###}" style="width:200px;" placeholder="填写格式：2015-10-01"/> —— 
+                                            <input type="text" name="end_beputtime" id="end_beputtime" class="input-xlarge" value="{$list.end_beputtime|date='Y-m-d',###}" style="width:200px;" placeholder="填写格式：2015-10-07"/>
+                                        </p>
+                                       
+                                        <p>
+		                                	<a href="javascript:void();" class="btn btn-primary" onclick="update_t('office');"><small>更新</small></a>
+		                                </p>
+                                    </div>
+                                </div>
+                                
+                                
+                            </form>
+                        </div><!--span8-->
+                    </div><!--row-fluid-->
+                   <div style="height:292px;"></div>
+                  
+        		 <!-- footer binge -->
+				<include file="Public/footer" />
+				
+				<!-- footer end -->
+                
+                
+                
+            </div><!--maincontentinner-->
+        </div><!--maincontent-->
+        
+    </div><!--rightpanel-->
+    
+</div><!--mainwrapper-->
+
+</body>
+</html>

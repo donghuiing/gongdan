@@ -1,0 +1,48 @@
+[ 2015-09-03T10:49:59+08:00 ] ::1 /24hours_admin/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+ERR: 无法加载模块:Index
+
+[ 2015-09-03T11:01:48+08:00 ] ::1 /24hours_admin/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+ERR: 无法加载模块:Index
+
+[ 2015-09-03T11:01:55+08:00 ] ::1 /24hours_admin/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+ERR: 无法加载模块:Index
+
+[ 2015-09-03T11:01:59+08:00 ] ::1 /24hours_admin/i
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+ERR: 无法加载模块:24hours_admin
+
+[ 2015-09-03T11:02:32+08:00 ] ::1 /24hours_admin/24hours/Admin/css/style.shinyblue.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+ERR: 无法加载模块:24hours_admin
+
+[ 2015-09-03T11:02:32+08:00 ] ::1 /24hours_admin/24hours/Admin/js/new/user.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+ERR: 无法加载模块:24hours_admin
+
+[ 2015-09-03T11:58:24+08:00 ] ::1 /24hours_admin/24hours/Admin/css/style.shinyblue.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+ERR: 无法加载模块:24hours_admin
+
+[ 2015-09-03T11:58:24+08:00 ] ::1 /24hours_admin/24hours/Admin/js/new/user.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+ERR: 无法加载模块:24hours_admin
+

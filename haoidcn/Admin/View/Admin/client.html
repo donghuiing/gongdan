@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>添加客户</title>
+
+<!-- header binge -->
+<include file="Public/header" />
+
+<!-- header end -->
+
+<script type="text/javascript" src="{$Think.config.URL}js/new/unify.js"></script>
+
+<script type="text/javascript">
+jQuery(document).ready(function(){
+
+	
+	jQuery('.taglist .close').click(function(){
+		jQuery(this).parent().remove();
+		return false;
+	});
+	
+});
+</script>
+</head>
+
+
+<!--[if lte IE 8]><script language="javascript" type="text/javascript" src="js/excanvas.min.js"></script><![endif]-->
+</head>
+<body>
+
+<!-- header binge -->
+<include file="Public/head" />
+
+<!-- header end -->
+    
+    <div class="rightpanel">
+        
+        <ul class="breadcrumbs">
+            <li><a href="{:U('Console/dashboard')}"><i class="iconfa-home"></i></a> <span class="separator"></span></li>
+            <li><a href="{:U('Console/dashboard')}">后台面板</a> <span class="separator"></span></li>
+            <li>添加客户</li>
+        </ul>
+        
+        <div class="pageheader">
+            <div class="pageicon"><span class="iconfa-plus"></span></div>
+            <div class="pagetitle">
+				<h5 style="height:10px;"></h5>
+                <h1>添加客户</h1>
+            </div>
+        </div><!--pageheader-->
+        
+        <div class="maincontent">
+           	 <div class="maincontentinner">
+               		 <div class="row-fluid">
+                        <div>
+                            <form action="client.html" id='form01' class="editprofileform" method="post">
+                               <input type="hidden" name="f_submit" value="f_submit">
+                                <div class="widgetbox personal-information">
+                                    <h4 class="widgettitle">添加客户</h4>
+                                    <div class="widgetcontent">
+                                        <p>
+                                            <label>账号：</label>
+                                            <input type="text" name="userid" id="userid" class="input-xlarge" value="" />
+                                        </p>
+                                        <p>
+                                            <label>密码：</label>
+                                            <input type="password" name="pwd" id="pwd" class="input-xlarge" value="" />
+                                        </p>
+                                        <p>
+                                            <label>确认密码：</label>
+                                            <input type="password" name="pwd01" id="pwd01" class="input-xlarge" value="" />
+                                        </p>
+                                        <p>
+                                            <label>负责人：</label>
+                                            <select name="sid" id="sid">
+                                            	<option value="">请选择</option>
+                                            	<volist name="data02" id="vo">
+	                                            	<option value="{$vo.id}">{$vo.uname}</option>
+                                            	</volist>
+                                            </select>
+                                        </p>
+                                        <p>
+                                            <label>客户类型：</label>
+                                            <select name="u_status" id="u_status">
+                                            	<option value="">请选择</option>
+                                            	<volist name="data" id="vo">
+	                                            	<option value="{$vo.status}">{$vo.status}</option>
+                                            	</volist>
+                                            </select>
+                                        </p>
+		                                <p>
+		                                	<a href="javascript:void();" class="btn btn-primary" onclick="update_t('client');"><small>提交信息</small></a>
+		                                </p>
+                                    </div>
+                                </div>
+                            </form>
+                            <input type="hidden" name="result" id="result" value="{$ok}">
+                        </div><!--span8-->
+                    </div><!--row-fluid-->
+                  
+                  
+        		 <!-- footer binge -->
+				<include file="Public/footer" />
+				
+				<!-- footer end -->
+                
+                
+                
+            </div><!--maincontentinner-->
+        </div><!--maincontent-->
+        
+    </div><!--rightpanel-->
+    
+</div><!--mainwrapper-->
+
+</body>
+</html>

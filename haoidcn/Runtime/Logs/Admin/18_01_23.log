@@ -1,0 +1,338 @@
+[ 2018-01-23T09:37:19+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `haoidcn_time` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `haoidcn_time` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `haoidcn_user` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `haoidcn_user` WHERE ( limits='3' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `haoidcn_work` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `haoidcn_work` WHERE (  wc_sataus='1' or wc_sataus='2' )  [ RunTime:0.0080s ]
+SQL: SELECT * FROM `haoidcn_user` WHERE ( id='58' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `haoidcn_service` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `haoidcn_service` WHERE ( id='59' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `haoidcn_addwork` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `haoidcn_addwork` WHERE ( pid='34' and tz_status='-1' and uid='58' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `haoidcn_user` WHERE ( id='58' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `haoidcn_service` WHERE ( id='59' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `haoidcn_addwork` WHERE ( pid='35' and tz_status='-1' and uid='58' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `haoidcn_user` WHERE ( id='58' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `haoidcn_service` WHERE ( id='59' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `haoidcn_addwork` WHERE ( pid='36' and tz_status='-1' and uid='58' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `haoidcn_user` WHERE ( id='58' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `haoidcn_service` WHERE ( id='59' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `haoidcn_addwork` WHERE ( pid='37' and tz_status='-1' and uid='58' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `haoidcn_user` WHERE ( id='58' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `haoidcn_service` WHERE ( id='59' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `haoidcn_addwork` WHERE ( pid='38' and tz_status='-1' and uid='58' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `haoidcn_user` WHERE ( id='58' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `haoidcn_service` WHERE ( id='59' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `haoidcn_addwork` WHERE ( pid='39' and tz_status='-1' and uid='58' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `haoidcn_user` WHERE ( id='58' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `haoidcn_service` WHERE ( id='59' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `haoidcn_addwork` WHERE ( pid='40' and tz_status='-1' and uid='58' )  [ RunTime:0.0000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp64\www\nainuogongdansys\haoidcn\Admin\Controller\IndexController.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-23T09:37:25+08:00 ] 127.0.0.1 /?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `haoidcn_time` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `haoidcn_time` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `haoidcn_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `haoidcn_user` WHERE ( limits='3' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `haoidcn_work` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `haoidcn_work` WHERE (  wc_sataus='1' or wc_sataus='2' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `haoidcn_user` WHERE ( id='58' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `haoidcn_service` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `haoidcn_service` WHERE ( id='59' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `haoidcn_addwork` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `haoidcn_addwork` WHERE ( pid='34' and tz_status='-1' and uid='58' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `haoidcn_user` WHERE ( id='58' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `haoidcn_service` WHERE ( id='59' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `haoidcn_addwork` WHERE ( pid='35' and tz_status='-1' and uid='58' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `haoidcn_user` WHERE ( id='58' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `haoidcn_service` WHERE ( id='59' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `haoidcn_addwork` WHERE ( pid='36' and tz_status='-1' and uid='58' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `haoidcn_user` WHERE ( id='58' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `haoidcn_service` WHERE ( id='59' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `haoidcn_addwork` WHERE ( pid='37' and tz_status='-1' and uid='58' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `haoidcn_user` WHERE ( id='58' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `haoidcn_service` WHERE ( id='59' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `haoidcn_addwork` WHERE ( pid='38' and tz_status='-1' and uid='58' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `haoidcn_user` WHERE ( id='58' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `haoidcn_service` WHERE ( id='59' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `haoidcn_addwork` WHERE ( pid='39' and tz_status='-1' and uid='58' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `haoidcn_user` WHERE ( id='58' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `haoidcn_service` WHERE ( id='59' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `haoidcn_addwork` WHERE ( pid='40' and tz_status='-1' and uid='58' )  [ RunTime:0.0010s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp64\www\nainuogongdansys\haoidcn\Admin\Controller\IndexController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `haoidcn_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `haoidcn_user` WHERE ( (userid='admin' or email='admin' or phone='admin') AND pwd='21232f297a57a5a743894a0e4a801fc3' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-01-23T09:37:25+08:00 ] 127.0.0.1 /index.php/Console/dashboard.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp64\www\nainuogongdansys\haoidcn\Admin\Controller\CommonController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `haoidcn_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `haoidcn_user` WHERE ( userid='admin' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: data D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\1896c1cf806f2d66e648efcc3142bdb7.php 第 64 行.
+NOTIC: [8] Undefined variable: data D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\1896c1cf806f2d66e648efcc3142bdb7.php 第 68 行.
+NOTIC: [8] Undefined variable: data01 D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\1896c1cf806f2d66e648efcc3142bdb7.php 第 97 行.
+NOTIC: [8] Undefined variable: data01 D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\1896c1cf806f2d66e648efcc3142bdb7.php 第 98 行.
+NOTIC: [8] Undefined variable: data01 D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\1896c1cf806f2d66e648efcc3142bdb7.php 第 99 行.
+NOTIC: [8] Undefined variable: data01 D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\1896c1cf806f2d66e648efcc3142bdb7.php 第 100 行.
+NOTIC: [8] Undefined variable: data01 D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\1896c1cf806f2d66e648efcc3142bdb7.php 第 101 行.
+NOTIC: [8] Undefined variable: data D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\1896c1cf806f2d66e648efcc3142bdb7.php 第 105 行.
+NOTIC: [8] Undefined variable: data D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\1896c1cf806f2d66e648efcc3142bdb7.php 第 106 行.
+NOTIC: [8] Undefined variable: data D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\1896c1cf806f2d66e648efcc3142bdb7.php 第 107 行.
+NOTIC: [8] Undefined variable: data D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\1896c1cf806f2d66e648efcc3142bdb7.php 第 108 行.
+NOTIC: [8] Undefined variable: data02 D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\1896c1cf806f2d66e648efcc3142bdb7.php 第 112 行.
+NOTIC: [8] Undefined variable: data03 D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\1896c1cf806f2d66e648efcc3142bdb7.php 第 113 行.
+NOTIC: [8] Undefined variable: data D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\1896c1cf806f2d66e648efcc3142bdb7.php 第 120 行.
+NOTIC: [8] Undefined variable: data D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\1896c1cf806f2d66e648efcc3142bdb7.php 第 121 行.
+NOTIC: [8] Undefined variable: data D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\1896c1cf806f2d66e648efcc3142bdb7.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-23T09:59:37+08:00 ] 127.0.0.1 /index.php/Client/messages/case/dai.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp64\www\nainuogongdansys\haoidcn\Admin\Controller\CommonController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `haoidcn_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `haoidcn_user` WHERE ( userid='admin' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `haoidcn_time` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `haoidcn_time` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: where D:\wamp64\www\nainuogongdansys\haoidcn\Admin\Controller\ClientController.class.php 第 222 行.
+SQL: SHOW COLUMNS FROM `haoidcn_work` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `haoidcn_work` WHERE ( wc_sataus='1'  ) ORDER BY puddate asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `haoidcn_work` [ RunTime:0.0000s ]
+SQL: SELECT u.id u_id,u.uname u_uname,u.email u_email,u.url u_url,u.phone u_phone,w.id w_id,w.title w_title,w.issue w_issue,w.sc_file w_sc_file,w.puddate w_puddate,w.wc_sataus,s.id s_id,s.email s_email,s.uname s_uname,s.phone s_phone FROM haoidcn_work as w LEFT JOIN haoidcn_user as u ON w.uid=u.id LEFT JOIN haoidcn_service as s ON u.sid=s.id  WHERE ( w.id='35' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `haoidcn_addwork` [ RunTime:0.0010s ]
+SQL: SELECT u.uname,u.email,u.phone,u.url,u.limits,a.id,a.g_reply,a.repdate,a.pid,a.uid FROM haoidcn_addwork as a LEFT JOIN haoidcn_user as u ON a.uid=u.id  WHERE ( a.pid='35' ) ORDER BY repdate asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: set D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\dec63b81bbf22128bdda8f2f476b7971.php 第 108 行.
+NOTIC: [8] Undefined variable: data01 D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\dec63b81bbf22128bdda8f2f476b7971.php 第 110 行.
+NOTIC: [8] Undefined variable: data01 D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\dec63b81bbf22128bdda8f2f476b7971.php 第 111 行.
+NOTIC: [8] Undefined variable: data01 D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\dec63b81bbf22128bdda8f2f476b7971.php 第 112 行.
+NOTIC: [8] Undefined variable: data01 D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\dec63b81bbf22128bdda8f2f476b7971.php 第 113 行.
+NOTIC: [8] Undefined variable: data01 D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\dec63b81bbf22128bdda8f2f476b7971.php 第 114 行.
+NOTIC: [8] Undefined index: sh_one D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\dec63b81bbf22128bdda8f2f476b7971.php 第 118 行.
+NOTIC: [8] Undefined index: sh_block D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\dec63b81bbf22128bdda8f2f476b7971.php 第 119 行.
+NOTIC: [8] Undefined index: sh_two01 D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\dec63b81bbf22128bdda8f2f476b7971.php 第 120 行.
+NOTIC: [8] Undefined index: sh_two02 D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\dec63b81bbf22128bdda8f2f476b7971.php 第 121 行.
+NOTIC: [8] Undefined variable: data02 D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\dec63b81bbf22128bdda8f2f476b7971.php 第 125 行.
+NOTIC: [8] Undefined variable: data03 D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\dec63b81bbf22128bdda8f2f476b7971.php 第 126 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-23T10:00:50+08:00 ] 127.0.0.1 /index.php/Console/dashboard.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp64\www\nainuogongdansys\haoidcn\Admin\Controller\CommonController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `haoidcn_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `haoidcn_user` WHERE ( userid='admin' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\1896c1cf806f2d66e648efcc3142bdb7.php 第 64 行.
+NOTIC: [8] Undefined variable: data D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\1896c1cf806f2d66e648efcc3142bdb7.php 第 68 行.
+NOTIC: [8] Undefined variable: data01 D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\1896c1cf806f2d66e648efcc3142bdb7.php 第 97 行.
+NOTIC: [8] Undefined variable: data01 D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\1896c1cf806f2d66e648efcc3142bdb7.php 第 98 行.
+NOTIC: [8] Undefined variable: data01 D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\1896c1cf806f2d66e648efcc3142bdb7.php 第 99 行.
+NOTIC: [8] Undefined variable: data01 D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\1896c1cf806f2d66e648efcc3142bdb7.php 第 100 行.
+NOTIC: [8] Undefined variable: data01 D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\1896c1cf806f2d66e648efcc3142bdb7.php 第 101 行.
+NOTIC: [8] Undefined variable: data D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\1896c1cf806f2d66e648efcc3142bdb7.php 第 105 行.
+NOTIC: [8] Undefined variable: data D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\1896c1cf806f2d66e648efcc3142bdb7.php 第 106 行.
+NOTIC: [8] Undefined variable: data D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\1896c1cf806f2d66e648efcc3142bdb7.php 第 107 行.
+NOTIC: [8] Undefined variable: data D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\1896c1cf806f2d66e648efcc3142bdb7.php 第 108 行.
+NOTIC: [8] Undefined variable: data02 D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\1896c1cf806f2d66e648efcc3142bdb7.php 第 112 行.
+NOTIC: [8] Undefined variable: data03 D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\1896c1cf806f2d66e648efcc3142bdb7.php 第 113 行.
+NOTIC: [8] Undefined variable: data D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\1896c1cf806f2d66e648efcc3142bdb7.php 第 120 行.
+NOTIC: [8] Undefined variable: data D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\1896c1cf806f2d66e648efcc3142bdb7.php 第 121 行.
+NOTIC: [8] Undefined variable: data D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\1896c1cf806f2d66e648efcc3142bdb7.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-23T10:00:59+08:00 ] 127.0.0.1 /index.php/Admin/client.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp64\www\nainuogongdansys\haoidcn\Admin\Controller\CommonController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `haoidcn_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `haoidcn_user` WHERE ( userid='admin' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `haoidcn_status` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `haoidcn_status` ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `haoidcn_service` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `haoidcn_service` ORDER BY time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: limits D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\28f4899251d0c346d103e4081dfb869a.php 第 78 行.
+NOTIC: [8] Undefined index: limits D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\28f4899251d0c346d103e4081dfb869a.php 第 82 行.
+NOTIC: [8] Undefined variable: set D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\28f4899251d0c346d103e4081dfb869a.php 第 109 行.
+NOTIC: [8] Undefined index: kh_two02 D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\28f4899251d0c346d103e4081dfb869a.php 第 114 行.
+NOTIC: [8] Undefined index: kh_two03 D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\28f4899251d0c346d103e4081dfb869a.php 第 115 行.
+NOTIC: [8] Undefined index: sh_one D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\28f4899251d0c346d103e4081dfb869a.php 第 119 行.
+NOTIC: [8] Undefined index: sh_block D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\28f4899251d0c346d103e4081dfb869a.php 第 120 行.
+NOTIC: [8] Undefined index: sh_two01 D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\28f4899251d0c346d103e4081dfb869a.php 第 121 行.
+NOTIC: [8] Undefined index: sh_two02 D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\28f4899251d0c346d103e4081dfb869a.php 第 122 行.
+NOTIC: [8] Undefined index: sh_two01 D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\28f4899251d0c346d103e4081dfb869a.php 第 126 行.
+NOTIC: [8] Undefined variable: data03 D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\28f4899251d0c346d103e4081dfb869a.php 第 127 行.
+NOTIC: [8] Undefined index: case D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\28f4899251d0c346d103e4081dfb869a.php 第 134 行.
+NOTIC: [8] Undefined index: case D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\28f4899251d0c346d103e4081dfb869a.php 第 135 行.
+NOTIC: [8] Undefined index: case D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\28f4899251d0c346d103e4081dfb869a.php 第 136 行.
+NOTIC: [8] Undefined variable: ok D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\28f4899251d0c346d103e4081dfb869a.php 第 207 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-23T10:02:07+08:00 ] 127.0.0.1 /index.php/Console/dashboard.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp64\www\nainuogongdansys\haoidcn\Admin\Controller\CommonController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `haoidcn_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `haoidcn_user` WHERE ( userid='admin' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\1896c1cf806f2d66e648efcc3142bdb7.php 第 64 行.
+NOTIC: [8] Undefined variable: data D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\1896c1cf806f2d66e648efcc3142bdb7.php 第 68 行.
+NOTIC: [8] Undefined variable: data01 D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\1896c1cf806f2d66e648efcc3142bdb7.php 第 97 行.
+NOTIC: [8] Undefined variable: data01 D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\1896c1cf806f2d66e648efcc3142bdb7.php 第 98 行.
+NOTIC: [8] Undefined variable: data01 D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\1896c1cf806f2d66e648efcc3142bdb7.php 第 99 行.
+NOTIC: [8] Undefined variable: data01 D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\1896c1cf806f2d66e648efcc3142bdb7.php 第 100 行.
+NOTIC: [8] Undefined variable: data01 D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\1896c1cf806f2d66e648efcc3142bdb7.php 第 101 行.
+NOTIC: [8] Undefined variable: data D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\1896c1cf806f2d66e648efcc3142bdb7.php 第 105 行.
+NOTIC: [8] Undefined variable: data D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\1896c1cf806f2d66e648efcc3142bdb7.php 第 106 行.
+NOTIC: [8] Undefined variable: data D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\1896c1cf806f2d66e648efcc3142bdb7.php 第 107 行.
+NOTIC: [8] Undefined variable: data D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\1896c1cf806f2d66e648efcc3142bdb7.php 第 108 行.
+NOTIC: [8] Undefined variable: data02 D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\1896c1cf806f2d66e648efcc3142bdb7.php 第 112 行.
+NOTIC: [8] Undefined variable: data03 D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\1896c1cf806f2d66e648efcc3142bdb7.php 第 113 行.
+NOTIC: [8] Undefined variable: data D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\1896c1cf806f2d66e648efcc3142bdb7.php 第 120 行.
+NOTIC: [8] Undefined variable: data D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\1896c1cf806f2d66e648efcc3142bdb7.php 第 121 行.
+NOTIC: [8] Undefined variable: data D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\1896c1cf806f2d66e648efcc3142bdb7.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-23T10:02:11+08:00 ] 127.0.0.1 /index.php/Admin/c_manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp64\www\nainuogongdansys\haoidcn\Admin\Controller\CommonController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `haoidcn_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `haoidcn_user` WHERE ( userid='admin' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `haoidcn_status` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `haoidcn_status` ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `haoidcn_service` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `haoidcn_service` ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `haoidcn_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `haoidcn_user` WHERE ( limits='3' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `haoidcn_user` [ RunTime:0.0000s ]
+SQL: SELECT u.id,u.userid,u.uname,u.qq u_qq,u.email u_email,u.phone u_phone,u.url u_url,u.u_status,s.uname s_name,u.limits FROM haoidcn_user u,haoidcn_service s WHERE ( u.sid=s.id and u.limits='3' ) ORDER BY f_date desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: limits D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\5fbbf7ccf98f5d7d931fb218c0948a8e.php 第 78 行.
+NOTIC: [8] Undefined index: limits D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\5fbbf7ccf98f5d7d931fb218c0948a8e.php 第 82 行.
+NOTIC: [8] Undefined variable: set D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\5fbbf7ccf98f5d7d931fb218c0948a8e.php 第 109 行.
+NOTIC: [8] Undefined index: kh_two01 D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\5fbbf7ccf98f5d7d931fb218c0948a8e.php 第 113 行.
+NOTIC: [8] Undefined index: kh_two03 D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\5fbbf7ccf98f5d7d931fb218c0948a8e.php 第 115 行.
+NOTIC: [8] Undefined index: sh_one D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\5fbbf7ccf98f5d7d931fb218c0948a8e.php 第 119 行.
+NOTIC: [8] Undefined index: sh_block D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\5fbbf7ccf98f5d7d931fb218c0948a8e.php 第 120 行.
+NOTIC: [8] Undefined index: sh_two01 D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\5fbbf7ccf98f5d7d931fb218c0948a8e.php 第 121 行.
+NOTIC: [8] Undefined index: sh_two02 D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\5fbbf7ccf98f5d7d931fb218c0948a8e.php 第 122 行.
+NOTIC: [8] Undefined index: sh_two01 D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\5fbbf7ccf98f5d7d931fb218c0948a8e.php 第 126 行.
+NOTIC: [8] Undefined variable: data03 D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\5fbbf7ccf98f5d7d931fb218c0948a8e.php 第 127 行.
+NOTIC: [8] Undefined index: case D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\5fbbf7ccf98f5d7d931fb218c0948a8e.php 第 134 行.
+NOTIC: [8] Undefined index: case D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\5fbbf7ccf98f5d7d931fb218c0948a8e.php 第 135 行.
+NOTIC: [8] Undefined index: case D:\wamp64\www\nainuogongdansys\haoidcn\Runtime\Cache\Admin\5fbbf7ccf98f5d7d931fb218c0948a8e.php 第 136 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

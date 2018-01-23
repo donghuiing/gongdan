@@ -1,0 +1,1137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="51aa82b7-25b0-4d0d-a690-2e441abbac1f" name="Default" comment="" />
+    <ignored path="nainuogongdansys.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="nainuogongdansys" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="IndexController.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/haoidcn/Admin/Controller/IndexController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.214286">
+              <caret line="18" column="108" selection-start-line="18" selection-start-column="108" selection-end-line="18" selection-end-column="108" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminController.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/haoidcn/Admin/Controller/AdminController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.392857">
+              <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+              <folding>
+                <element signature="e#122#1085#0#PHP" expanded="false" />
+                <element signature="e#163#289#0#PHP" expanded="false" />
+                <element signature="e#394#1050#0#PHP" expanded="false" />
+                <element signature="e#431#1043#0#PHP" expanded="false" />
+                <element signature="e#487#719#0#PHP" expanded="false" />
+                <element signature="e#770#993#0#PHP" expanded="false" />
+                <element signature="e#891#993#0#PHP" expanded="false" />
+                <element signature="e#1001#1043#0#PHP" expanded="false" />
+                <element signature="e#1111#3763#0#PHP" expanded="false" />
+                <element signature="e#1144#2617#0#PHP" expanded="false" />
+                <element signature="e#1189#2584#0#PHP" expanded="false" />
+                <element signature="e#1222#1293#0#PHP" expanded="false" />
+                <element signature="e#1451#1675#0#PHP" expanded="false" />
+                <element signature="e#1705#2044#0#PHP" expanded="false" />
+                <element signature="e#1742#2035#0#PHP" expanded="false" />
+                <element signature="e#1800#1857#0#PHP" expanded="false" />
+                <element signature="e#1954#1992#0#PHP" expanded="false" />
+                <element signature="e#2002#2035#0#PHP" expanded="false" />
+                <element signature="e#2071#2529#0#PHP" expanded="false" />
+                <element signature="e#2121#2436#0#PHP" expanded="false" />
+                <element signature="e#2642#2745#0#PHP" expanded="false" />
+                <element signature="e#2828#2954#0#PHP" expanded="false" />
+                <element signature="e#3355#3580#0#PHP" expanded="false" />
+                <element signature="e#3355#3627#0#PHP" expanded="false" />
+                <element signature="e#3355#3649#0#PHP" expanded="false" />
+                <element signature="e#3789#4693#0#PHP" expanded="false" />
+                <element signature="e#3948#4348#0#PHP" expanded="false" />
+                <element signature="e#3986#4061#0#PHP" expanded="false" />
+                <element signature="e#4117#4334#0#PHP" expanded="false" />
+                <element signature="e#4236#4334#0#PHP" expanded="false" />
+                <element signature="e#4372#4477#0#PHP" expanded="false" />
+                <element signature="e#4714#6114#0#PHP" expanded="false" />
+                <element signature="e#4756#4912#0#PHP" expanded="false" />
+                <element signature="e#4971#6057#0#PHP" expanded="false" />
+                <element signature="e#5001#6043#0#PHP" expanded="false" />
+                <element signature="e#5063#5371#0#PHP" expanded="false" />
+                <element signature="e#5428#6025#0#PHP" expanded="false" />
+                <element signature="e#5567#5766#0#PHP" expanded="false" />
+                <element signature="e#5922#6025#0#PHP" expanded="false" />
+                <element signature="e#6135#7970#0#PHP" expanded="false" />
+                <element signature="e#6186#7247#0#PHP" expanded="false" />
+                <element signature="e#6219#7228#0#PHP" expanded="false" />
+                <element signature="e#6252#6323#0#PHP" expanded="false" />
+                <element signature="e#6395#6475#0#PHP" expanded="false" />
+                <element signature="e#6496#6795#0#PHP" expanded="false" />
+                <element signature="e#6530#6789#0#PHP" expanded="false" />
+                <element signature="e#6585#6635#0#PHP" expanded="false" />
+                <element signature="e#6723#6755#0#PHP" expanded="false" />
+                <element signature="e#6762#6789#0#PHP" expanded="false" />
+                <element signature="e#6816#7189#0#PHP" expanded="false" />
+                <element signature="e#6859#7039#0#PHP" expanded="false" />
+                <element signature="e#7777#7906#0#PHP" expanded="false" />
+                <element signature="e#7991#8944#0#PHP" expanded="false" />
+                <element signature="e#8091#8637#0#PHP" expanded="false" />
+                <element signature="e#8115#8359#0#PHP" expanded="false" />
+                <element signature="e#8368#8506#0#PHP" expanded="false" />
+                <element signature="e#8427#8506#0#PHP" expanded="false" />
+                <element signature="e#8510#8624#0#PHP" expanded="false" />
+                <element signature="e#8720#8876#0#PHP" expanded="false" />
+                <element signature="e#9990#10043#0#PHP" expanded="false" />
+                <element signature="e#10149#10404#0#PHP" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConsoleController.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/haoidcn/Admin/Controller/ConsoleController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.5">
+              <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClientController.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/haoidcn/Admin/Controller/ClientController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.142858">
+              <caret line="164" column="4" selection-start-line="164" selection-start-column="4" selection-end-line="164" selection-end-column="4" />
+              <folding>
+                <element signature="e#118#4566#0#PHP" expanded="false" />
+                <element signature="e#2018#2134#0#PHP" expanded="false" />
+                <element signature="e#2623#2844#0#PHP" expanded="false" />
+                <element signature="e#3567#3698#0#PHP" expanded="false" />
+                <element signature="e#3705#3834#0#PHP" expanded="false" />
+                <element signature="e#4006#4234#0#PHP" expanded="false" />
+                <element signature="e#4122#4234#0#PHP" expanded="false" />
+                <element signature="e#4276#4540#0#PHP" expanded="false" />
+                <element signature="e#4319#4536#0#PHP" expanded="false" />
+                <element signature="e#4585#11625#0#PHP" expanded="false" />
+                <element signature="e#5170#5416#0#PHP" expanded="false" />
+                <element signature="e#5228#5292#0#PHP" expanded="false" />
+                <element signature="e#5292#5353#0#PHP" expanded="false" />
+                <element signature="e#5353#5416#0#PHP" expanded="false" />
+                <element signature="e#5431#5520#0#PHP" expanded="false" />
+                <element signature="e#5546#6264#0#PHP" expanded="false" />
+                <element signature="e#5704#6264#0#PHP" expanded="false" />
+                <element signature="e#5843#5906#0#PHP" expanded="false" />
+                <element signature="e#6125#6264#0#PHP" expanded="false" />
+                <element signature="e#6270#6501#0#PHP" expanded="false" />
+                <element signature="e#6319#6501#0#PHP" expanded="false" />
+                <element signature="e#6371#6501#0#PHP" expanded="false" />
+                <element signature="e#6380#6497#0#PHP" expanded="false" />
+                <element signature="e#6423#6497#0#PHP" expanded="false" />
+                <element signature="e#6534#6802#0#PHP" expanded="false" />
+                <element signature="e#6534#6874#0#PHP" expanded="false" />
+                <element signature="e#6534#6949#0#PHP" expanded="false" />
+                <element signature="e#6534#6971#0#PHP" expanded="false" />
+                <element signature="e#7039#7248#0#PHP" expanded="false" />
+                <element signature="e#7313#8924#0#PHP" expanded="false" />
+                <element signature="e#7413#8917#0#PHP" expanded="false" />
+                <element signature="e#7484#7646#0#PHP" expanded="false" />
+                <element signature="e#7701#8822#0#PHP" expanded="false" />
+                <element signature="e#7719#8708#0#PHP" expanded="false" />
+                <element signature="e#7792#8701#0#PHP" expanded="false" />
+                <element signature="e#7921#8672#0#PHP" expanded="false" />
+                <element signature="e#8274#8672#0#PHP" expanded="false" />
+                <element signature="e#8837#8917#0#PHP" expanded="false" />
+                <element signature="e#8944#9537#0#PHP" expanded="false" />
+                <element signature="e#9062#9121#0#PHP" expanded="false" />
+                <element signature="e#9201#9523#0#PHP" expanded="false" />
+                <element signature="e#9554#10442#0#PHP" expanded="false" />
+                <element signature="e#9713#9747#0#PHP" expanded="false" />
+                <element signature="e#9820#10438#0#PHP" expanded="false" />
+                <element signature="e#10465#11206#0#PHP" expanded="false" />
+                <element signature="e#10543#11202#0#PHP" expanded="false" />
+                <element signature="e#11223#11567#0#PHP" expanded="false" />
+                <element signature="e#11635#12144#0#PHP" expanded="false" />
+                <element signature="e#12410#12549#0#PHP" expanded="false" />
+                <element signature="e#12560#12685#0#PHP" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommonController.class.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/haoidcn/Admin/Controller/CommonController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3499079">
+              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="function.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/haoidcn/Admin/Common/function.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="37.32143">
+              <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/haoidcn/Admin/Controller/IndexController.class.php" />
+        <option value="$PROJECT_DIR$/haoidcn/Admin/View/Index/editprofile.html" />
+        <option value="$PROJECT_DIR$/haoidcn/Admin/View/Admin/c_manage.html" />
+        <option value="$PROJECT_DIR$/haoidcn/Admin/Public/js/new/unify.js" />
+        <option value="$PROJECT_DIR$/haoidcn/Admin/Controller/ClientController.class.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="www.nainuogd.com" id="bd661e4d-b556-4c20-ba2a-c325aab4aca2" name="gongdan" />
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="9" />
+    <option name="y" value="119" />
+    <option name="width" value="991" />
+    <option name="height" value="732" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nainuogongdansys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nainuogongdansys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nainuogongdansys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nainuogongdansys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nainuogongdansys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thinkphp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nainuogongdansys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nainuogongdansys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thinkphp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nainuogongdansys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nainuogongdansys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="haoidcn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nainuogongdansys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nainuogongdansys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="haoidcn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nainuogongdansys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nainuogongdansys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="haoidcn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Index" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nainuogongdansys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nainuogongdansys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="haoidcn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Console" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nainuogongdansys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nainuogongdansys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="haoidcn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nainuogongdansys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nainuogongdansys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="haoidcn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nainuogongdansys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nainuogongdansys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="haoidcn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Conf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager" selected="PHP Web Application.gongdan">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="gongdan" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="gongdan">
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="PHP Web Application.gongdan" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",Show Includes" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="51aa82b7-25b0-4d0d-a690-2e441abbac1f" name="Default" comment="" />
+      <created>1516073439994</created>
+      <option name="number" value="Default" />
+      <updated>1516073439994</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="9" y="119" width="991" height="732" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3179377" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35383064" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30608696" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2387268" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="15" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/thinkphp/Library/Think/Model/RelationModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkphp/Library/Think/Model/MongoModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkphp/Library/Think/Model/MergeModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29007635">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkphp/Library/Think/Model/AdvModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33206108">
+          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkphp/Mode/common.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07692308">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haoidcn/Home/View/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="1" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haoidcn/Admin/Public/js/jquery-1.9.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1904048">
+          <caret line="4" column="11139" selection-start-line="4" selection-start-column="11139" selection-end-line="4" selection-end-column="11139" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haoidcn/Admin/View/Admin/office.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haoidcn/Admin/View/Admin/config.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.071428">
+          <caret line="73" column="88" selection-start-line="73" selection-start-column="88" selection-end-line="73" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkphp/Lang/zh-cn.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.1785715">
+          <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkphp/Lang/en-us.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="8.357142">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkphp/Lang/zh-tw.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.33572453">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haoidcn/Admin/View/Client/messages.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.3715925">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haoidcn/Admin/View/Index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.081779055">
+          <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haoidcn/Admin/Public/js/excanvas.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haoidcn/Admin/Public/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.017931">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkphp/Library/Think/Db/Driver.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29959515">
+          <caret line="164" column="59" selection-start-line="164" selection-start-column="59" selection-end-line="164" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haoidcn/Admin/View/Admin/client.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.3571428">
+          <caret line="64" column="85" selection-start-line="64" selection-start-column="85" selection-end-line="64" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haoidcn/Admin/View/Admin/s_manage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.8339769">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haoidcn/Common/Conf/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.081779055">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haoidcn/Home/Controller/IndexController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19081779">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.65423244">
+          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/pcre.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23672883">
+          <caret line="146" column="3" selection-start-line="146" selection-start-column="3" selection-end-line="146" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haoidcn/Admin/Conf/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2998565">
+          <caret line="11" column="83" selection-start-line="11" selection-start-column="83" selection-end-line="11" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haoidcn/Admin/View/Public/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-27.142857">
+          <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haoidcn/Admin/View/Public/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.62697273">
+          <caret line="23" column="85" selection-start-line="23" selection-start-column="85" selection-end-line="23" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haoidcn/Admin/Public/baidubianjiqi/umeditor.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haoidcn/Admin/Public/baidubianjiqi/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24533716">
+          <caret line="144" column="17" selection-start-line="144" selection-start-column="17" selection-end-line="144" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haoidcn/Admin/Public/baidubianjiqi/umeditor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9684" column="43" selection-start-line="9684" selection-start-column="43" selection-end-line="9684" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haoidcn/Admin/Public/baidubianjiqi/dialogs/map/map.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.482066">
+          <caret line="126" column="0" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/_superglobals.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.018651363">
+          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haoidcn/Admin/Public/baidubianjiqi/php/upload/20180122/15165993291083.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haoidcn/Admin/View/Admin/c_manage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-28.5">
+          <caret line="87" column="49" selection-start-line="87" selection-start-column="49" selection-end-line="87" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haoidcn/Admin/View/Client/forms.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.465517">
+          <caret line="117" column="81" selection-start-line="117" selection-start-column="81" selection-end-line="117" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkphp/Library/Org/Util/Mail.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="1965" selection-start-line="0" selection-start-column="1965" selection-end-line="0" selection-end-column="1965" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haoidcn/Admin/View/Console/dashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="61" column="27" selection-start-line="61" selection-start-column="27" selection-end-line="61" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haoidcn/Admin/View/Index/editprofile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/说明.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.40889525">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VIP源码完全免费下载.url">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13103448">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haoidcn/Admin/Public/js/new/unify.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="557" column="9" selection-start-line="557" selection-start-column="9" selection-end-line="557" selection-end-column="9" />
+          <folding>
+            <element signature="e#70#893#0" expanded="false" />
+            <element signature="e#136#760#0" expanded="false" />
+            <element signature="e#217#241#0" expanded="false" />
+            <element signature="e#242#295#0" expanded="false" />
+            <element signature="e#461#540#0" expanded="false" />
+            <element signature="e#598#677#0" expanded="false" />
+            <element signature="e#782#890#0" expanded="false" />
+            <element signature="e#862#886#0" expanded="false" />
+            <element signature="e#929#1091#0" expanded="false" />
+            <element signature="e#987#1059#0" expanded="false" />
+            <element signature="e#1123#1250#0" expanded="false" />
+            <element signature="e#1194#1216#0" expanded="false" />
+            <element signature="e#1284#1975#0" expanded="false" />
+            <element signature="e#1364#1829#0" expanded="false" />
+            <element signature="e#1440#1464#0" expanded="false" />
+            <element signature="e#1748#1819#0" expanded="false" />
+            <element signature="e#1767#1814#0" expanded="false" />
+            <element signature="e#2012#2144#0" expanded="false" />
+            <element signature="e#2088#2110#0" expanded="false" />
+            <element signature="e#2178#2691#0" expanded="false" />
+            <element signature="e#2244#2636#0" expanded="false" />
+            <element signature="e#2323#2347#0" expanded="false" />
+            <element signature="e#2519#2626#0" expanded="false" />
+            <element signature="e#2538#2585#0" expanded="false" />
+            <element signature="e#2589#2621#0" expanded="false" />
+            <element signature="e#2658#2688#0" expanded="false" />
+            <element signature="e#3846#4455#0" expanded="false" />
+            <element signature="e#4057#4131#0" expanded="false" />
+            <element signature="e#4152#4224#0" expanded="false" />
+            <element signature="e#4227#4426#0" expanded="false" />
+            <element signature="n#!!block;n#upd_jiben#0" expanded="false" />
+            <element signature="e#4529#4597#0" expanded="false" />
+            <element signature="e#4626#4732#0" expanded="false" />
+            <element signature="e#4658#4729#0" expanded="false" />
+            <element signature="e#4789#5125#0" expanded="false" />
+            <element signature="e#4821#4890#0" expanded="false" />
+            <element signature="e#4923#4996#0" expanded="false" />
+            <element signature="e#5043#5119#0" expanded="false" />
+            <element signature="e#5168#5394#0" expanded="false" />
+            <element signature="e#5212#5280#0" expanded="false" />
+            <element signature="e#5341#5391#0" expanded="false" />
+            <element signature="e#5450#5654#0" expanded="false" />
+            <element signature="e#5479#5544#0" expanded="false" />
+            <element signature="e#5580#5651#0" expanded="false" />
+            <element signature="e#5751#6537#0" expanded="false" />
+            <element signature="e#5831#5903#0" expanded="false" />
+            <element signature="e#6118#6195#0" expanded="false" />
+            <element signature="e#6248#6322#0" expanded="false" />
+            <element signature="e#6344#6534#0" expanded="false" />
+            <element signature="e#6452#6530#0" expanded="false" />
+            <element signature="e#6567#6686#0" expanded="false" />
+            <element signature="e#6613#6683#0" expanded="false" />
+            <element signature="n#!!block;n#upd_pass#0" expanded="false" />
+            <element signature="e#6847#6915#0" expanded="false" />
+            <element signature="e#6959#7033#0" expanded="false" />
+            <element signature="e#7080#7152#0" expanded="false" />
+            <element signature="n#!!block;n#pw#0" expanded="false" />
+            <element signature="n#!!block;n#del#0" expanded="false" />
+            <element signature="e#7711#7748#0" expanded="false" />
+            <element signature="e#7752#7788#0" expanded="false" />
+            <element signature="e#7800#7855#0" expanded="false" />
+            <element signature="e#7859#7879#0" expanded="false" />
+            <element signature="n#!!block;n#none#0" expanded="false" />
+            <element signature="e#9407#9460#0" expanded="false" />
+            <element signature="e#9492#9545#0" expanded="false" />
+            <element signature="n#!!block;n#file_d#0" expanded="false" />
+            <element signature="n#!!block;n#file_del#0" expanded="false" />
+            <element signature="n#!!block;n#del_tp#0" expanded="false" />
+            <element signature="n#!!block;n#seek#0" expanded="false" />
+            <element signature="e#10851#10916#0" expanded="false" />
+            <element signature="e#10880#10913#0" expanded="false" />
+            <element signature="e#11111#11155#0" expanded="false" />
+            <element signature="e#11173#11223#0" expanded="false" />
+            <element signature="e#11240#11313#0" expanded="false" />
+            <element signature="n#!!block;n#RemainTime#0" expanded="false" />
+            <element signature="e#11377#11396#0" expanded="false" />
+            <element signature="e#11668#12094#0" expanded="false" />
+            <element signature="e#11752#11864#0" expanded="false" />
+            <element signature="e#11770#11821#0" expanded="false" />
+            <element signature="e#11825#11860#0" expanded="false" />
+            <element signature="e#11896#12018#0" expanded="false" />
+            <element signature="e#12022#12091#0" expanded="false" />
+            <element signature="e#12098#12119#0" expanded="false" />
+            <element signature="e#12588#12609#0" expanded="false" />
+            <element signature="e#12885#13326#0" expanded="false" />
+            <element signature="e#12973#13085#0" expanded="false" />
+            <element signature="e#12991#13042#0" expanded="false" />
+            <element signature="e#13046#13081#0" expanded="false" />
+            <element signature="e#13119#13245#0" expanded="false" />
+            <element signature="e#13249#13323#0" expanded="false" />
+            <element signature="e#13330#13351#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haoidcn/Admin/Common/function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="37.32143">
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haoidcn/Admin/Controller/AdminController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.392857">
+          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+          <folding>
+            <element signature="e#122#1085#0#PHP" expanded="false" />
+            <element signature="e#163#289#0#PHP" expanded="false" />
+            <element signature="e#394#1050#0#PHP" expanded="false" />
+            <element signature="e#431#1043#0#PHP" expanded="false" />
+            <element signature="e#487#719#0#PHP" expanded="false" />
+            <element signature="e#770#993#0#PHP" expanded="false" />
+            <element signature="e#891#993#0#PHP" expanded="false" />
+            <element signature="e#1001#1043#0#PHP" expanded="false" />
+            <element signature="e#1111#3763#0#PHP" expanded="false" />
+            <element signature="e#1144#2617#0#PHP" expanded="false" />
+            <element signature="e#1189#2584#0#PHP" expanded="false" />
+            <element signature="e#1222#1293#0#PHP" expanded="false" />
+            <element signature="e#1451#1675#0#PHP" expanded="false" />
+            <element signature="e#1705#2044#0#PHP" expanded="false" />
+            <element signature="e#1742#2035#0#PHP" expanded="false" />
+            <element signature="e#1800#1857#0#PHP" expanded="false" />
+            <element signature="e#1954#1992#0#PHP" expanded="false" />
+            <element signature="e#2002#2035#0#PHP" expanded="false" />
+            <element signature="e#2071#2529#0#PHP" expanded="false" />
+            <element signature="e#2121#2436#0#PHP" expanded="false" />
+            <element signature="e#2642#2745#0#PHP" expanded="false" />
+            <element signature="e#2828#2954#0#PHP" expanded="false" />
+            <element signature="e#3355#3580#0#PHP" expanded="false" />
+            <element signature="e#3355#3627#0#PHP" expanded="false" />
+            <element signature="e#3355#3649#0#PHP" expanded="false" />
+            <element signature="e#3789#4693#0#PHP" expanded="false" />
+            <element signature="e#3948#4348#0#PHP" expanded="false" />
+            <element signature="e#3986#4061#0#PHP" expanded="false" />
+            <element signature="e#4117#4334#0#PHP" expanded="false" />
+            <element signature="e#4236#4334#0#PHP" expanded="false" />
+            <element signature="e#4372#4477#0#PHP" expanded="false" />
+            <element signature="e#4714#6114#0#PHP" expanded="false" />
+            <element signature="e#4756#4912#0#PHP" expanded="false" />
+            <element signature="e#4971#6057#0#PHP" expanded="false" />
+            <element signature="e#5001#6043#0#PHP" expanded="false" />
+            <element signature="e#5063#5371#0#PHP" expanded="false" />
+            <element signature="e#5428#6025#0#PHP" expanded="false" />
+            <element signature="e#5567#5766#0#PHP" expanded="false" />
+            <element signature="e#5922#6025#0#PHP" expanded="false" />
+            <element signature="e#6135#7970#0#PHP" expanded="false" />
+            <element signature="e#6186#7247#0#PHP" expanded="false" />
+            <element signature="e#6219#7228#0#PHP" expanded="false" />
+            <element signature="e#6252#6323#0#PHP" expanded="false" />
+            <element signature="e#6395#6475#0#PHP" expanded="false" />
+            <element signature="e#6496#6795#0#PHP" expanded="false" />
+            <element signature="e#6530#6789#0#PHP" expanded="false" />
+            <element signature="e#6585#6635#0#PHP" expanded="false" />
+            <element signature="e#6723#6755#0#PHP" expanded="false" />
+            <element signature="e#6762#6789#0#PHP" expanded="false" />
+            <element signature="e#6816#7189#0#PHP" expanded="false" />
+            <element signature="e#6859#7039#0#PHP" expanded="false" />
+            <element signature="e#7777#7906#0#PHP" expanded="false" />
+            <element signature="e#7991#8944#0#PHP" expanded="false" />
+            <element signature="e#8091#8637#0#PHP" expanded="false" />
+            <element signature="e#8115#8359#0#PHP" expanded="false" />
+            <element signature="e#8368#8506#0#PHP" expanded="false" />
+            <element signature="e#8427#8506#0#PHP" expanded="false" />
+            <element signature="e#8510#8624#0#PHP" expanded="false" />
+            <element signature="e#8720#8876#0#PHP" expanded="false" />
+            <element signature="e#9990#10043#0#PHP" expanded="false" />
+            <element signature="e#10149#10404#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haoidcn/Admin/Controller/ClientController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.142858">
+          <caret line="164" column="4" selection-start-line="164" selection-start-column="4" selection-end-line="164" selection-end-column="4" />
+          <folding>
+            <element signature="e#118#4566#0#PHP" expanded="false" />
+            <element signature="e#2018#2134#0#PHP" expanded="false" />
+            <element signature="e#2623#2844#0#PHP" expanded="false" />
+            <element signature="e#3567#3698#0#PHP" expanded="false" />
+            <element signature="e#3705#3834#0#PHP" expanded="false" />
+            <element signature="e#4006#4234#0#PHP" expanded="false" />
+            <element signature="e#4122#4234#0#PHP" expanded="false" />
+            <element signature="e#4276#4540#0#PHP" expanded="false" />
+            <element signature="e#4319#4536#0#PHP" expanded="false" />
+            <element signature="e#4585#11625#0#PHP" expanded="false" />
+            <element signature="e#5170#5416#0#PHP" expanded="false" />
+            <element signature="e#5228#5292#0#PHP" expanded="false" />
+            <element signature="e#5292#5353#0#PHP" expanded="false" />
+            <element signature="e#5353#5416#0#PHP" expanded="false" />
+            <element signature="e#5431#5520#0#PHP" expanded="false" />
+            <element signature="e#5546#6264#0#PHP" expanded="false" />
+            <element signature="e#5704#6264#0#PHP" expanded="false" />
+            <element signature="e#5843#5906#0#PHP" expanded="false" />
+            <element signature="e#6125#6264#0#PHP" expanded="false" />
+            <element signature="e#6270#6501#0#PHP" expanded="false" />
+            <element signature="e#6319#6501#0#PHP" expanded="false" />
+            <element signature="e#6371#6501#0#PHP" expanded="false" />
+            <element signature="e#6380#6497#0#PHP" expanded="false" />
+            <element signature="e#6423#6497#0#PHP" expanded="false" />
+            <element signature="e#6534#6802#0#PHP" expanded="false" />
+            <element signature="e#6534#6874#0#PHP" expanded="false" />
+            <element signature="e#6534#6949#0#PHP" expanded="false" />
+            <element signature="e#6534#6971#0#PHP" expanded="false" />
+            <element signature="e#7039#7248#0#PHP" expanded="false" />
+            <element signature="e#7313#8924#0#PHP" expanded="false" />
+            <element signature="e#7413#8917#0#PHP" expanded="false" />
+            <element signature="e#7484#7646#0#PHP" expanded="false" />
+            <element signature="e#7701#8822#0#PHP" expanded="false" />
+            <element signature="e#7719#8708#0#PHP" expanded="false" />
+            <element signature="e#7792#8701#0#PHP" expanded="false" />
+            <element signature="e#7921#8672#0#PHP" expanded="false" />
+            <element signature="e#8274#8672#0#PHP" expanded="false" />
+            <element signature="e#8837#8917#0#PHP" expanded="false" />
+            <element signature="e#8944#9537#0#PHP" expanded="false" />
+            <element signature="e#9062#9121#0#PHP" expanded="false" />
+            <element signature="e#9201#9523#0#PHP" expanded="false" />
+            <element signature="e#9554#10442#0#PHP" expanded="false" />
+            <element signature="e#9713#9747#0#PHP" expanded="false" />
+            <element signature="e#9820#10438#0#PHP" expanded="false" />
+            <element signature="e#10465#11206#0#PHP" expanded="false" />
+            <element signature="e#10543#11202#0#PHP" expanded="false" />
+            <element signature="e#11223#11567#0#PHP" expanded="false" />
+            <element signature="e#11635#12144#0#PHP" expanded="false" />
+            <element signature="e#12410#12549#0#PHP" expanded="false" />
+            <element signature="e#12560#12685#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haoidcn/Admin/Controller/ConsoleController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.5">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haoidcn/Admin/Controller/IndexController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.214286">
+          <caret line="18" column="108" selection-start-line="18" selection-start-column="108" selection-end-line="18" selection-end-column="108" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haoidcn/Admin/Public/ajax/image.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.7142856">
+          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haoidcn/Admin/Public/ajax/video.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haoidcn/Admin/Public/ajax/audio.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13996316">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haoidcn/Admin/Public/ajax/doc.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkphp/Common/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.03499079">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haoidcn/Admin/Controller/CommonController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3499079">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>工作时间</title>
+
+<!-- header binge -->
+<include file="Public/header" />
+
+<!-- header end -->
+
+<script type="text/javascript" src="{$Think.config.URL}js/new/unify.js"></script>
+
+</head>
+
+
+<!--[if lte IE 8]><script language="javascript" type="text/javascript" src="js/excanvas.min.js"></script><![endif]-->
+</head>
+<body >
+
+<!-- header binge -->
+<include file="Public/head" />
+
+<!-- header end -->
+    
+    <div class="rightpanel">
+        
+        
+        <div class="maincontent">
+            <div class="maincontentinner">
+                <div class="row-fluid">
+                	<div class="widgetbox personal-information">
+                        <h4 class="widgettitle">未通知售后人员列表</h4>
+                        <div class="widgetcontent">
+                        	<table class="table table-bordered">
+                        		<tr>
+                        			<th width="50px;">序号</th>
+                        			<th width="150px;">客户账号</th>
+                        			<th width="200px;">标题</th>
+                        			<th width="400px;">描述</th>
+                        			<th width="400px;">追加</th>
+                        			<th width="200px;">负责人</th>
+                        		</tr>
+                        		<volist name="list" id="vo">
+                        			<tr>
+                        				<td>{$i}</td>
+                        				<td>{$vo.u_uname}</td>
+	                        			<td>{$vo.w_title}</td>
+	                        			<td>{$vo.w_issue|msubstr=0,32|strip_tags}</td>
+	                        			<td>{$vo.a_g_reply|msubstr=0,32|strip_tags}</td>
+	                        			<td>{$vo.s_uname}</td>
+                        			</tr>
+                        		</volist>
+                        	</table> 
+                        </div>
+                    </div><!--row-fluid-->
+                   <div style="height:292px;"></div>
+                  
+        		 <!-- footer binge -->
+				<include file="Public/footer" />
+				
+				<!-- footer end -->
+                
+                
+                
+            </div><!--maincontentinner-->
+        </div><!--maincontent-->
+        
+    </div><!--rightpanel-->
+    
+</div><!--mainwrapper-->
+
+</body>
+</html>

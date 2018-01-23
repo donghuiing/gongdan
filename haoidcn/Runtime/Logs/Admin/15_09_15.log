@@ -1,0 +1,121 @@
+[ 2015-09-15T09:22:39+08:00 ] ::1 /24hours_admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WWW\24hours_admin\24hours\Admin\Controller\IndexController.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018734s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018791s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000490s ]
+
+[ 2015-09-15T09:22:39+08:00 ] ::1 /24hours_admin/24hours/Admin/Public/js/new/user.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+ERR: 无法加载控制器:24hours_admin
+
+[ 2015-09-15T09:22:39+08:00 ] ::1 /24hours_admin/24hours/Admin/Public/css/style.shinyblue.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001059s ]
+ERR: 无法加载控制器:24hours_admin
+
+[ 2015-09-15T09:22:48+08:00 ] ::1 /24hours_admin/?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WWW\24hours_admin\24hours\Admin\Controller\IndexController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `sz24hours_user` [ RunTime:0.3453s ]
+SQL: SELECT * FROM `sz24hours_user` WHERE ( (userid='xiaozhu' or email='xiaozhu' or phone='xiaozhu') AND pwd='009aa9774b5cf730a880956fe6caab23' ) LIMIT 1   [ RunTime:0.0085s ]
+
+[ 2015-09-15T09:22:48+08:00 ] ::1 /24hours_admin/index.php/Console/dashboard.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001544s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001568s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WWW\24hours_admin\24hours\Admin\Controller\CommonController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `sz24hours_user` [ RunTime:0.0387s ]
+SQL: SELECT * FROM `sz24hours_user` WHERE ( userid='xiaozhu' ) LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000355s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000551s ]
+NOTIC: [8] Undefined variable: data E:\WWW\24hours_admin\24hours\Runtime\Cache\Admin\26b171401dbd5b60c808612bdab45468.php 第 109 行.
+NOTIC: [8] Undefined variable: count E:\WWW\24hours_admin\24hours\Runtime\Cache\Admin\26b171401dbd5b60c808612bdab45468.php 第 109 行.
+NOTIC: [8] Undefined variable: data E:\WWW\24hours_admin\24hours\Runtime\Cache\Admin\26b171401dbd5b60c808612bdab45468.php 第 110 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060379s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060486s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000697s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000788s ]
+
+[ 2015-09-15T09:22:55+08:00 ] ::1 /24hours_admin/index.php/Client/resolved.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WWW\24hours_admin\24hours\Admin\Controller\CommonController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `sz24hours_user` [ RunTime:0.0308s ]
+SQL: SELECT * FROM `sz24hours_user` WHERE ( userid='xiaozhu' ) LIMIT 1   [ RunTime:0.0004s ]
+ERR: 非法操作:resolved
+
+[ 2015-09-15T09:22:57+08:00 ] ::1 /24hours_admin/index.php/Client/underway.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WWW\24hours_admin\24hours\Admin\Controller\CommonController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `sz24hours_user` [ RunTime:0.0175s ]
+SQL: SELECT * FROM `sz24hours_user` WHERE ( userid='xiaozhu' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sz24hours_work` [ RunTime:0.0194s ]
+SQL: SHOW COLUMNS FROM `sz24hours_user` [ RunTime:0.0185s ]
+SQL: SELECT `id` FROM `sz24hours_user` WHERE ( sid=52 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sz24hours_work` WHERE ( wc_sataus='2' and cc_status='1' and uid in(37,55,49,51) ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sz24hours_work` WHERE ( wc_sataus='2' and cc_status='1' and uid in(37,55,49,51) ) ORDER BY puddate desc LIMIT 0,10   [ RunTime:0.0003s ]
+NOTIC: [4096] Object of class Admin\Controller\ClientController could not be converted to string E:\WWW\24hours_admin\24hours\Admin\Controller\ClientController.class.php 第 282 行.
+NOTIC: [4096] Object of class Admin\Controller\ClientController could not be converted to string E:\WWW\24hours_admin\24hours\Admin\Controller\ClientController.class.php 第 282 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+NOTIC: [8] Undefined index: member02 E:\WWW\24hours_admin\24hours\Runtime\Cache\Admin\7acd3e0529bb1cd06aaf512bc422a14d.php 第 110 行.
+NOTIC: [8] Undefined variable: count E:\WWW\24hours_admin\24hours\Runtime\Cache\Admin\7acd3e0529bb1cd06aaf512bc422a14d.php 第 110 行.
+NOTIC: [8] Undefined variable: set E:\WWW\24hours_admin\24hours\Runtime\Cache\Admin\7acd3e0529bb1cd06aaf512bc422a14d.php 第 120 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017492s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017572s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000518s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000592s ]
+

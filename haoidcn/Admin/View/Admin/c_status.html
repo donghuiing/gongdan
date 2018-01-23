@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>客户类型管理</title>
+
+<!-- header binge -->
+<include file="Public/header" />
+
+<!-- header end -->
+
+<script type="text/javascript" src="{$Think.config.URL}js/new/unify.js"></script>
+
+<script type="text/javascript">
+jQuery(document).ready(function(){
+
+	
+	jQuery('.taglist .close').click(function(){
+		jQuery(this).parent().remove();
+		return false;
+	});
+	
+});
+</script>
+</head>
+
+
+<!--[if lte IE 8]><script language="javascript" type="text/javascript" src="js/excanvas.min.js"></script><![endif]-->
+</head>
+<body >
+
+<!-- header binge -->
+<include file="Public/head" />
+
+<!-- header end -->
+    
+    <div class="rightpanel">
+        
+        <ul class="breadcrumbs">
+            <li><a href="{:U('Console/dashboard')}"><i class="iconfa-home"></i></a> <span class="separator"></span></li>
+            <li><a href="{:U('Console/dashboard')}">后台面板</a> <span class="separator"></span></li>
+            <li>客户类型</li>
+           
+        </ul>
+        
+        <div class="pageheader">
+            <div class="pageicon"><span class="iconfa-plus"></span></div>
+            <div class="pagetitle">
+				<h5 style="height:10px;"></h5>
+                <h1>添加类型</h1>
+            </div>
+        </div><!--pageheader-->
+        
+        <div class="maincontent">
+            <div class="maincontentinner">
+                <div class="row-fluid">
+                		<div>
+                        	<input type="hidden" name="result" id="result" value="{$ok}">
+                             <div class="widgetbox personal-information">
+                                 <h4 class="widgettitle">类型列表</h4>
+                                 <div class="widgetcontent">
+                                    <table class="table">
+                                    	<tr>
+                                    		<th>类型</th>
+                                    		<th width="300px">操作</th>
+                                    	</tr>
+                                    	<volist name="data" id="vo">
+                                    		<tr id="c_status{$vo.id}">
+                                    			<td>{$vo.status}</td>
+                                    			<td>
+	                                    			<a href="javascript:void()" class="deleterow" onclick="del('c_status-{$vo.id}')">
+	                                    				<span class="icon-trash" id=""></span>
+                                    				</a>
+                                    			</td>
+                                    		</tr>
+                                    	</volist>
+									</table>
+                                 </div>
+                             </div>
+                             
+                        </div><!--span8-->
+                
+                        <div>
+                            <form action="c_status.html" id='form01' class="editprofileform" method="post">
+                               <input type="hidden" name="f_submit" value="f_submit">
+                                <div class="widgetbox personal-information">
+                                    <h4 class="widgettitle">添加类型</h4>
+                                    <div class="widgetcontent">
+                                        <p>
+                                            <label>类型：</label>
+                                            <input type="text" name="status" id="status" class="input-xlarge" value="" />
+                                        </p>
+                                       
+		                               <p>
+		                               		<a href="javascript:void();" class="btn btn-primary" onclick="update_t('c_status');"><small>提交信息</small></a>
+		                               </p>
+                                    </div>
+                                </div>
+                                
+                            </form>
+                        </div><!--span8-->
+                    </div><!--row-fluid-->
+                  
+                  
+        		 <!-- footer binge -->
+				<include file="Public/footer" />
+				
+				<!-- footer end -->
+                
+                
+                
+            </div><!--maincontentinner-->
+        </div><!--maincontent-->
+        
+    </div><!--rightpanel-->
+    
+</div><!--mainwrapper-->
+
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>基本配置</title>
+
+<!-- header binge -->
+<include file="Public/header" />
+
+<!-- header end -->
+
+<script type="text/javascript" src="{$Think.config.URL}js/new/unify.js"></script>
+
+</head>
+
+
+<!--[if lte IE 8]><script language="javascript" type="text/javascript" src="js/excanvas.min.js"></script><![endif]-->
+</head>
+<body >
+
+<!-- header binge -->
+<include file="Public/head" />
+
+<!-- header end -->
+    
+    <div class="rightpanel">
+        
+        <!-- head binge -->
+        
+			<include file="Public/nav" name='基本配置'/>
+		
+		<!-- head end -->
+        
+        <div class="pageheader">
+           
+            <div class="pageicon"><span class="iconfa-plus"></span></div>
+            <div class="pagetitle">
+				<h5 style="height:10px;"></h5>
+                <h1>基本配置</h1>
+            </div>
+        </div><!--pageheader-->
+        
+        <div class="maincontent">
+            <div class="maincontentinner">
+                <div class="row-fluid">
+                        <div>
+                        	<input type="hidden" name="result" id="result" value="{$ok}">
+                            <form action="config.html" id='form01' class="editprofileform" method="post">
+                               <input type="hidden" name="f_submit" value="f_submit">
+                                <div class="widgetbox personal-information">
+                                    <h4 class="widgettitle">基本配置</h4>
+                                    <div class="widgetcontent">
+                                    	<br/>
+                                    	<p style="margin:0 0;">邮箱基本配置</p>
+                                    	<div style="padding:15px 40px;">
+                                    		<p style="margin:0 0;">
+	                                            <label style="width:150px;">邮箱地址：</label>
+	                                            <input type="text" class="input-xlarge" name="mail_address" id="mail_address" value="{$list.mail_address}" placeholder="例如：admin@163.com"/>
+	                                        </p>
+	                                    	<p style="margin:0 0;">
+	                                            <label style="width:150px;">邮箱SMTP服务器：</label>
+	                                            <input type="text" class="input-xlarge" name="mail_smtp" id="mail_smtp" value="{$list.mail_smtp}" placeholder="例如：smtp.163.com"/>
+	                                        </p>
+	                                    	<p style="margin:0 0;">
+	                                            <label style="width:150px;">邮箱登录帐号：</label>
+	                                            <input type="text" class="input-xlarge" name="mail_loginname" id="mail_loginname" value="{$list.mail_loginname}" placeholder="例如：admin"/>
+	                                        </p>
+	                                    	<p style="margin:0 0;">
+	                                            <label style="width:150px;">邮箱密码：</label>
+	                                            <input type="password" class="input-xlarge" name="mail_password" id="mail_password" value="{$list.mail_password}" placeholder=""/>
+	                                        </p>
+	                                    	<p style="margin:0 0;">
+	                                            <label style="width:150px;">发件人：</label>
+	                                            <input type="text" class="input-xlarge" name="mail_formname" id="mail_formname" value="{$list.mail_formname}" placeholder="例如：好站长"/>
+	                                        </p>
+                                    	</div>
+                                    	
+                                        <br/>
+                                    	<p style="margin:0 0;">短信接口基本配置</p>
+                                    	<div style="padding:15px 40px;">
+	                                    	<p style="margin:0 0;">
+	                                            <label style="width:150px;">短信提交接口：</label>
+	                                            <input type="text" class="input-xlarge" name="phone_target" id="phone_target" value="{$list.phone_target}" placeholder="例如：http://106.ihuyi.cn/webservice/sms.php?method=Submit"/>
+	                                        </p>
+	                                    	<p style="margin:0 0;">
+	                                            <label style="width:150px;">短信账号：</label>
+	                                            <input type="text" class="input-xlarge" name="phone_user" id="phone_user" value="{$list.phone_user}" placeholder="互亿无线的账号"/>
+	                                        </p>
+	                                    	<p style="margin:0 0;">
+	                                            <label style="width:150px;">短信密码：</label>
+	                                            <input type="password" class="input-xlarge" name="phone_pass" id="phone_pass" value="{$list.phone_pass}" placeholder=""/>
+	                                        </p>
+	                                        <p>
+	                                        	<input type="submit" class="btn btn-primary" value="更新">
+			                                </p>
+                                    	</div>
+                                    	
+                                    </div>
+                                </div>
+                            </form>
+                        </div><!--span8-->
+                    </div><!--row-fluid-->
+                   <div style="height:292px;"></div>
+                  
+        		 <!-- footer binge -->
+				<include file="Public/footer" />
+				
+				<!-- footer end -->
+                
+                
+                
+            </div><!--maincontentinner-->
+        </div><!--maincontent-->
+        
+    </div><!--rightpanel-->
+    
+</div><!--mainwrapper-->
+
+</body>
+</html>

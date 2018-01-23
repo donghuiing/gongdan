@@ -1,0 +1,9 @@
+[ 2015-09-03T12:04:48+08:00 ] ::1 /24hours_admin/index.php/Admin/Admin/service
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001132s ]
+ERR: 无法加载控制器:Admin
+
