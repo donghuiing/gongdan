@@ -25,7 +25,7 @@
       <file leaf-file-name="IndexController.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/haoidcn/Admin/Controller/IndexController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.214286">
+            <state vertical-scroll-proportion="0.0">
               <caret line="18" column="108" selection-start-line="18" selection-start-column="108" selection-end-line="18" selection-end-column="108" />
               <folding />
             </state>
@@ -35,7 +35,7 @@
       <file leaf-file-name="AdminController.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/haoidcn/Admin/Controller/AdminController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.392857">
+            <state vertical-scroll-proportion="0.0">
               <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
               <folding>
                 <element signature="e#122#1085#0#PHP" expanded="false" />
@@ -107,7 +107,7 @@
       <file leaf-file-name="ConsoleController.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/haoidcn/Admin/Controller/ConsoleController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.5">
+            <state vertical-scroll-proportion="0.0">
               <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
               <folding />
             </state>
@@ -117,7 +117,7 @@
       <file leaf-file-name="ClientController.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/haoidcn/Admin/Controller/ClientController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.142858">
+            <state vertical-scroll-proportion="0.0">
               <caret line="164" column="4" selection-start-line="164" selection-start-column="4" selection-end-line="164" selection-end-column="4" />
               <folding>
                 <element signature="e#118#4566#0#PHP" expanded="false" />
@@ -178,7 +178,7 @@
       <file leaf-file-name="CommonController.class.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/haoidcn/Admin/Controller/CommonController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3499079">
+            <state vertical-scroll-proportion="0.0">
               <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
               <folding />
             </state>
@@ -188,7 +188,7 @@
       <file leaf-file-name="function.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/haoidcn/Admin/Common/function.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="37.32143">
+            <state vertical-scroll-proportion="0.0">
               <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
               <folding />
             </state>
@@ -220,10 +220,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="9" />
-    <option name="y" value="119" />
-    <option name="width" value="991" />
-    <option name="height" value="732" />
+    <option name="x" value="61" />
+    <option name="y" value="284" />
+    <option name="width" value="1267" />
+    <option name="height" value="811" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -232,8 +232,14 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
+    <OptionsSetting value="true" id="添加" />
+    <OptionsSetting value="true" id="移除" />
+    <OptionsSetting value="true" id="签出" />
+    <OptionsSetting value="true" id="更新" />
+    <OptionsSetting value="true" id="状态" />
+    <OptionsSetting value="true" id="编辑" />
+    <ConfirmationsSetting value="0" id="添加" />
+    <ConfirmationsSetting value="0" id="移除" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -516,26 +522,27 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="9" y="119" width="991" height="732" extended-state="0" />
-    <editor active="true" />
+    <frame x="61" y="284" width="1267" height="811" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3179377" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35383064" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30608696" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2387268" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30608696" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -556,6 +563,81 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/haoidcn/Admin/Controller/ClientController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="164" column="4" selection-start-line="164" selection-start-column="4" selection-end-line="164" selection-end-column="4" />
+          <folding>
+            <element signature="e#118#4566#0#PHP" expanded="false" />
+            <element signature="e#2018#2134#0#PHP" expanded="false" />
+            <element signature="e#2623#2844#0#PHP" expanded="false" />
+            <element signature="e#3567#3698#0#PHP" expanded="false" />
+            <element signature="e#3705#3834#0#PHP" expanded="false" />
+            <element signature="e#4006#4234#0#PHP" expanded="false" />
+            <element signature="e#4122#4234#0#PHP" expanded="false" />
+            <element signature="e#4276#4540#0#PHP" expanded="false" />
+            <element signature="e#4319#4536#0#PHP" expanded="false" />
+            <element signature="e#4585#11625#0#PHP" expanded="false" />
+            <element signature="e#5170#5416#0#PHP" expanded="false" />
+            <element signature="e#5228#5292#0#PHP" expanded="false" />
+            <element signature="e#5292#5353#0#PHP" expanded="false" />
+            <element signature="e#5353#5416#0#PHP" expanded="false" />
+            <element signature="e#5431#5520#0#PHP" expanded="false" />
+            <element signature="e#5546#6264#0#PHP" expanded="false" />
+            <element signature="e#5704#6264#0#PHP" expanded="false" />
+            <element signature="e#5843#5906#0#PHP" expanded="false" />
+            <element signature="e#6125#6264#0#PHP" expanded="false" />
+            <element signature="e#6270#6501#0#PHP" expanded="false" />
+            <element signature="e#6319#6501#0#PHP" expanded="false" />
+            <element signature="e#6371#6501#0#PHP" expanded="false" />
+            <element signature="e#6380#6497#0#PHP" expanded="false" />
+            <element signature="e#6423#6497#0#PHP" expanded="false" />
+            <element signature="e#6534#6802#0#PHP" expanded="false" />
+            <element signature="e#6534#6874#0#PHP" expanded="false" />
+            <element signature="e#6534#6949#0#PHP" expanded="false" />
+            <element signature="e#6534#6971#0#PHP" expanded="false" />
+            <element signature="e#7039#7248#0#PHP" expanded="false" />
+            <element signature="e#7313#8924#0#PHP" expanded="false" />
+            <element signature="e#7413#8917#0#PHP" expanded="false" />
+            <element signature="e#7484#7646#0#PHP" expanded="false" />
+            <element signature="e#7701#8822#0#PHP" expanded="false" />
+            <element signature="e#7719#8708#0#PHP" expanded="false" />
+            <element signature="e#7792#8701#0#PHP" expanded="false" />
+            <element signature="e#7921#8672#0#PHP" expanded="false" />
+            <element signature="e#8274#8672#0#PHP" expanded="false" />
+            <element signature="e#8837#8917#0#PHP" expanded="false" />
+            <element signature="e#8944#9537#0#PHP" expanded="false" />
+            <element signature="e#9062#9121#0#PHP" expanded="false" />
+            <element signature="e#9201#9523#0#PHP" expanded="false" />
+            <element signature="e#9554#10442#0#PHP" expanded="false" />
+            <element signature="e#9713#9747#0#PHP" expanded="false" />
+            <element signature="e#9820#10438#0#PHP" expanded="false" />
+            <element signature="e#10465#11206#0#PHP" expanded="false" />
+            <element signature="e#10543#11202#0#PHP" expanded="false" />
+            <element signature="e#11223#11567#0#PHP" expanded="false" />
+            <element signature="e#11635#12144#0#PHP" expanded="false" />
+            <element signature="e#12410#12549#0#PHP" expanded="false" />
+            <element signature="e#12560#12685#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haoidcn/Admin/Controller/CommonController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haoidcn/Admin/Common/function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/thinkphp/Library/Think/Model/RelationModel.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -581,13 +663,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33206108">
           <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinkphp/Mode/common.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07692308">
-          <caret line="2" column="32" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -714,7 +789,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.23672883">
           <caret line="146" column="3" selection-start-line="146" selection-start-column="3" selection-end-line="146" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -771,7 +845,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.018651363">
           <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -798,7 +871,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="1965" selection-start-line="0" selection-start-column="1965" selection-end-line="0" selection-end-column="1965" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -806,7 +878,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="61" column="27" selection-start-line="61" selection-start-column="27" selection-end-line="61" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -814,21 +885,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/说明.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.40889525">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VIP源码完全免费下载.url">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13103448">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -836,105 +892,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="557" column="9" selection-start-line="557" selection-start-column="9" selection-end-line="557" selection-end-column="9" />
-          <folding>
-            <element signature="e#70#893#0" expanded="false" />
-            <element signature="e#136#760#0" expanded="false" />
-            <element signature="e#217#241#0" expanded="false" />
-            <element signature="e#242#295#0" expanded="false" />
-            <element signature="e#461#540#0" expanded="false" />
-            <element signature="e#598#677#0" expanded="false" />
-            <element signature="e#782#890#0" expanded="false" />
-            <element signature="e#862#886#0" expanded="false" />
-            <element signature="e#929#1091#0" expanded="false" />
-            <element signature="e#987#1059#0" expanded="false" />
-            <element signature="e#1123#1250#0" expanded="false" />
-            <element signature="e#1194#1216#0" expanded="false" />
-            <element signature="e#1284#1975#0" expanded="false" />
-            <element signature="e#1364#1829#0" expanded="false" />
-            <element signature="e#1440#1464#0" expanded="false" />
-            <element signature="e#1748#1819#0" expanded="false" />
-            <element signature="e#1767#1814#0" expanded="false" />
-            <element signature="e#2012#2144#0" expanded="false" />
-            <element signature="e#2088#2110#0" expanded="false" />
-            <element signature="e#2178#2691#0" expanded="false" />
-            <element signature="e#2244#2636#0" expanded="false" />
-            <element signature="e#2323#2347#0" expanded="false" />
-            <element signature="e#2519#2626#0" expanded="false" />
-            <element signature="e#2538#2585#0" expanded="false" />
-            <element signature="e#2589#2621#0" expanded="false" />
-            <element signature="e#2658#2688#0" expanded="false" />
-            <element signature="e#3846#4455#0" expanded="false" />
-            <element signature="e#4057#4131#0" expanded="false" />
-            <element signature="e#4152#4224#0" expanded="false" />
-            <element signature="e#4227#4426#0" expanded="false" />
-            <element signature="n#!!block;n#upd_jiben#0" expanded="false" />
-            <element signature="e#4529#4597#0" expanded="false" />
-            <element signature="e#4626#4732#0" expanded="false" />
-            <element signature="e#4658#4729#0" expanded="false" />
-            <element signature="e#4789#5125#0" expanded="false" />
-            <element signature="e#4821#4890#0" expanded="false" />
-            <element signature="e#4923#4996#0" expanded="false" />
-            <element signature="e#5043#5119#0" expanded="false" />
-            <element signature="e#5168#5394#0" expanded="false" />
-            <element signature="e#5212#5280#0" expanded="false" />
-            <element signature="e#5341#5391#0" expanded="false" />
-            <element signature="e#5450#5654#0" expanded="false" />
-            <element signature="e#5479#5544#0" expanded="false" />
-            <element signature="e#5580#5651#0" expanded="false" />
-            <element signature="e#5751#6537#0" expanded="false" />
-            <element signature="e#5831#5903#0" expanded="false" />
-            <element signature="e#6118#6195#0" expanded="false" />
-            <element signature="e#6248#6322#0" expanded="false" />
-            <element signature="e#6344#6534#0" expanded="false" />
-            <element signature="e#6452#6530#0" expanded="false" />
-            <element signature="e#6567#6686#0" expanded="false" />
-            <element signature="e#6613#6683#0" expanded="false" />
-            <element signature="n#!!block;n#upd_pass#0" expanded="false" />
-            <element signature="e#6847#6915#0" expanded="false" />
-            <element signature="e#6959#7033#0" expanded="false" />
-            <element signature="e#7080#7152#0" expanded="false" />
-            <element signature="n#!!block;n#pw#0" expanded="false" />
-            <element signature="n#!!block;n#del#0" expanded="false" />
-            <element signature="e#7711#7748#0" expanded="false" />
-            <element signature="e#7752#7788#0" expanded="false" />
-            <element signature="e#7800#7855#0" expanded="false" />
-            <element signature="e#7859#7879#0" expanded="false" />
-            <element signature="n#!!block;n#none#0" expanded="false" />
-            <element signature="e#9407#9460#0" expanded="false" />
-            <element signature="e#9492#9545#0" expanded="false" />
-            <element signature="n#!!block;n#file_d#0" expanded="false" />
-            <element signature="n#!!block;n#file_del#0" expanded="false" />
-            <element signature="n#!!block;n#del_tp#0" expanded="false" />
-            <element signature="n#!!block;n#seek#0" expanded="false" />
-            <element signature="e#10851#10916#0" expanded="false" />
-            <element signature="e#10880#10913#0" expanded="false" />
-            <element signature="e#11111#11155#0" expanded="false" />
-            <element signature="e#11173#11223#0" expanded="false" />
-            <element signature="e#11240#11313#0" expanded="false" />
-            <element signature="n#!!block;n#RemainTime#0" expanded="false" />
-            <element signature="e#11377#11396#0" expanded="false" />
-            <element signature="e#11668#12094#0" expanded="false" />
-            <element signature="e#11752#11864#0" expanded="false" />
-            <element signature="e#11770#11821#0" expanded="false" />
-            <element signature="e#11825#11860#0" expanded="false" />
-            <element signature="e#11896#12018#0" expanded="false" />
-            <element signature="e#12022#12091#0" expanded="false" />
-            <element signature="e#12098#12119#0" expanded="false" />
-            <element signature="e#12588#12609#0" expanded="false" />
-            <element signature="e#12885#13326#0" expanded="false" />
-            <element signature="e#12973#13085#0" expanded="false" />
-            <element signature="e#12991#13042#0" expanded="false" />
-            <element signature="e#13046#13081#0" expanded="false" />
-            <element signature="e#13119#13245#0" expanded="false" />
-            <element signature="e#13249#13323#0" expanded="false" />
-            <element signature="e#13330#13351#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/haoidcn/Admin/Common/function.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="37.32143">
+        <state vertical-scroll-proportion="0.0">
           <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
           <folding />
         </state>
@@ -942,7 +905,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/haoidcn/Admin/Controller/AdminController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.392857">
+        <state vertical-scroll-proportion="0.0">
           <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
           <folding>
             <element signature="e#122#1085#0#PHP" expanded="false" />
@@ -1012,7 +975,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/haoidcn/Admin/Controller/ClientController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.142858">
+        <state vertical-scroll-proportion="0.0">
           <caret line="164" column="4" selection-start-line="164" selection-start-column="4" selection-end-line="164" selection-end-column="4" />
           <folding>
             <element signature="e#118#4566#0#PHP" expanded="false" />
@@ -1071,7 +1034,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/haoidcn/Admin/Controller/ConsoleController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.5">
+        <state vertical-scroll-proportion="0.0">
           <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
           <folding />
         </state>
@@ -1079,7 +1042,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/haoidcn/Admin/Controller/IndexController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.214286">
+        <state vertical-scroll-proportion="0.0">
           <caret line="18" column="108" selection-start-line="18" selection-start-column="108" selection-end-line="18" selection-end-column="108" />
           <folding />
         </state>
@@ -1089,7 +1052,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.7142856">
           <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1097,7 +1059,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1105,7 +1066,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.13996316">
           <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1113,7 +1073,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1121,13 +1080,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.03499079">
           <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/haoidcn/Admin/Controller/CommonController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3499079">
+        <state vertical-scroll-proportion="0.0">
           <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
           <folding />
         </state>
